@@ -26,4 +26,6 @@ Ausgestattet mit
 Support
 -------
 Falls du weitere Fragen oder Vorschläge hast,
-besuche uns auf unserem `Supportserver https://discord.gg/myD9rUF`_.
+besuche uns auf unserem Supportserver_.
+
+.. _Supportserver: https://discord.gg/myD9rUF
