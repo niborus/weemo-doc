@@ -1,6 +1,10 @@
 Template
 ========
 
+.. image:: https://readthedocs.org/projects/weemo/badge/?version=latest
+:target: https://weemo.readthedocs.io/de/latest/?badge=latest
+:alt: Documentation Status
+
 This could be a template for all the project documentation.
 
 System Design Considerations
