@@ -1,56 +1,31 @@
-Template
-========
+Weemo Dokumentation
+===================
+.. image:: https://readthedocs.org/projects/weemo/badge/?version=latest
 
-This could be a template for all the project documentation.
+Weemo ist ein deutschprachiger Discord-Bot.
 
-System Design Considerations
-----------
-Hold for system design docs
+Links
+-----
+- Supportserver für weitere Fragen: https://discord.gg/myD9rUF
+- Patreon (rein auf freiwilliger Basis, Weemo's Funktionen sind und werden für immer kostenlos bleiben): https://weemobot.de/patreon
+- Lade Weemo auf deinen Server ein: https://weemobot.de/invite
+- Wartungsarbeiten, Downtimes, etc. hier: https://weemobot.de/status
+- Dokumentation: https://weemo.readthedocs.io/de/latest/
 
-
-User Auth 
-------
-Place holder for User Auth documentation.
-`
-code snippet
-`
-
-
-$project will solve your problem of where to start with documentation,
-by providing a basic explanation of how to do it easily.
-
-Look how easy it is to use:
-
-    import project
-    # Get your stuff done
-    project.do_stuff()
-
-Features
---------
-
-- Be awesome
-- Make things faster
-
-Installation
-------------
-
-Install $project by running:
-
-    install project
-
-Contribute
-----------
-
-- Issue Tracker: github.com/$project/$project/issues
-- Source Code: github.com/$project/$project
+Ausgestattet mit
+----------------
+- Nützlichen Befehlen wie userinfo, serverinfo, roleinfo etc.
+- einem AutoMod, Modlog & vielen Moderationsbefehlen
+- Levelrollen & Serverpunkten
+- Reactionroles
+- Privaten Sprachkanälen
+- Musik
+- Keksen 🍪
+- ...und vielem mehr
 
 Support
 -------
+Falls du weitere Fragen oder Vorschläge hast,
+besuche uns auf unserem Supportserver_.
 
-If you are having issues, please let us know.
-We have a mailing list located at: project@google-groups.com
-
-License
--------
-
-The project is licensed under the BSD license.
+.. _Supportserver: https://discord.gg/myD9rUF
