@@ -1,5 +1,6 @@
 Weemo Dokumentation
 ===================
+.. image:: https://readthedocs.org/projects/weemo/badge/?version=latest
 
 Weemo ist ein deutschprachiger Discord-Bot.
 
@@ -13,7 +14,6 @@ Links
 
 Ausgestattet mit
 ----------------
-
 - Nützlichen Befehlen wie userinfo, serverinfo, roleinfo etc.
 - einem AutoMod, Modlog & vielen Moderationsbefehlen
 - Levelrollen & Serverpunkten
@@ -25,6 +25,5 @@ Ausgestattet mit
 
 Support
 -------
-
 Falls du weitere Fragen oder Vorschläge hast,
 besuche uns auf unserem `Supportserver https://discord.gg/myD9rUF`_.
