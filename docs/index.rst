@@ -4,12 +4,12 @@
    contain the root `toctree` directive.
 
 Wilkommen bei der Dokumentation für Weemo!
-==================================================
+==========================================
 
 Weemo • Ein frecher, aber dennoch sehr nützlicher Discord Bot. Frisch aus der Deepsea Metro.
 
-Ausgestattet mit ...
---------------------
+Ausgestattet mit
+----------------
 - Nützlichen Befehlen wie userinfo, serverinfo, roleinfo etc.
 - einem AutoMod, Modlog & vielen Moderationsbefehlen
 - Levelrollen & Serverpunkten
@@ -19,8 +19,8 @@ Ausgestattet mit ...
 - Keksen 🍪
 - ...und vielem mehr
 
-Inhalte:
---------
+Inhalte
+-------
 .. toctree::
    :maxdepth: 2
    :glob:
