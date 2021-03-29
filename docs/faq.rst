@@ -1,5 +1,5 @@
 ***************************
-Häufige Fargen und Probleme
+Häufige Fragen und Probleme
 ***************************
 
 .. contents:: Inhalte
