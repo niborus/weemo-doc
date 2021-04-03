@@ -66,7 +66,7 @@ Nützliches
 Leveled Roles
 -------------
 
-Falls ihr für besondes aktive Mitglieder Rollen verteilen wollt, findet ihr bei **w#w#help leveledroles** mehr Informationen dazu.
+Falls ihr für besondes aktive Mitglieder Rollen verteilen wollt, findet ihr bei **w#help leveledroles** mehr Informationen dazu.
 
 Private Sprachkanäle
 --------------------
