@@ -70,7 +70,7 @@ Profil
     "rep [User]", "Schenke einem anderen User einen Reputationspunkt."
     "card_", "Verwaltet und zeigt Splatoon 2 Visitenkarten."
     "bday [Tag] [Monat]", "Trage deinen Geburtstag ein.
-        **Hinweise in** bday_ **beachten**. [1]_"
+        Hinweise in bday_ beachten. [1]_"
     "fc [FC-Code]", "Speichert deinen Nintendo-Switch Freundescode ab. [1]_"
     "dreamcode [Traumcode]", "Speichert deinen ACNH Traum-Code ab. [1]_"
     "achievements", "Sendet eine DM mit deinen Weemo-Achievements."
