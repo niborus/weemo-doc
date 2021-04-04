@@ -48,7 +48,7 @@ Das Profil [Serverübergreifend]
 -------------------------------
 
 Das Profil enthält allgemeine Informationen über euch.
-Mit **w#w#help profile** könnt ihr sehen, wie ihr es einrichtet. Mit **w#bday** fügt ihr euren Geburtstag hinzu.
+Mit **w#help profile** könnt ihr sehen, wie ihr es einrichtet. Mit **w#bday** fügt ihr euren Geburtstag hinzu.
 
 Splatoon 2 Karte [Serverübergreifend]
 -------------------------------------
