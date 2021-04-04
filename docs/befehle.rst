@@ -19,6 +19,8 @@ Nützliches
 ^^^^^^^^^^
 
 .. csv-table::
+    :widths: auto
+    :align: left
     :header: "Befehl", "Beschreibung"
 
     "userinfo <User>", "Zeigt Informationen über einen User an."
@@ -39,6 +41,8 @@ Fun
 ^^^
 
 .. csv-table::
+    :widths: auto
+    :align: left
     :header: "Befehl", "Beschreibung"
 
     "cookie <eat>", "Kekse |cookie|"
@@ -62,6 +66,8 @@ Dies ist praktisch, falls auf eurem Server häufig die selbe Frage gestellt wird
 Antworttext schreiben wollt.
 
 .. csv-table::
+    :widths: auto
+    :align: left
     :header: "Befehl", "Beschreibung"
 
     "tag", "Listet alle Tags für diesen Server auf"
@@ -69,7 +75,7 @@ Antworttext schreiben wollt.
     "tag create [Tag] [Nachricht]", "Erstellt einen neuen Tag mit dem Namen und der hinterlassenden Nachricht."
     "tag edit [Tag] [Nachricht]", "Editiert einen Tag."
     "tag info [Tag]", "Ruft Informationen über den Tag ab."
-    "tag rename [Tag] [Neuer Tagname]", "Benennt den angegebenen Tag um."
+    "tag rename [Tag] [Neuer |nbsp| Tagname]", "Benennt den angegebenen Tag um."
     "tag delete [Tag]", "Löscht einen Tag aus der Liste."
 
 remindme
@@ -78,6 +84,8 @@ remindme
 Erstellt Erinnerungen. Es ist nur eine Erinnerung zeitgleich pro Account möglich.
 
 .. csv-table::
+    :widths: auto
+    :align: left
     :header: "Befehl", "Beschreibung"
 
     "remindme [Zeitangabe] [Erinnerung]", "Startet eine neue Erinnerung."
@@ -88,6 +96,7 @@ Erstellt Erinnerungen. Es ist nur eine Erinnerung zeitgleich pro Account möglic
 **Zeitangaben**:
 
 .. csv-table::
+    :widths: auto
     :align: left
 
     "``s``", "Sekunden"
@@ -99,6 +108,8 @@ count
 ^^^^^
 
 .. csv-table::
+    :widths: auto
+    :align: left
     :header: "Befehl", "Beschreibung"
 
     "count setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem gezählt werden soll. Sollte der Textkanal nicht das erste mal eingerichtet werden sondern gewechselt, wird der Zähler auf 1 zurückgesetzt."
@@ -112,3 +123,5 @@ count
 .. |coin| unicode:: 0x1fa99 .. Münze Emoji
 .. |ring| unicode:: 0x1f48d .. Ehering Emoji
 .. |broken_heart| unicode:: 0x1f494 .. Gebrochenes Herz Emoji
+.. |nbsp| unicode:: 0xA0 .. Non breaking Space
+   :trim:
