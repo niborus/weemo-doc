@@ -2,8 +2,6 @@
 Befehle
 *******
 
-.. contents:: Inhalte
-
 Befehle eingeben
 ================
 
@@ -209,7 +207,9 @@ Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
 .. image:: images/card_example.png
     :alt: Eine Weemo-Beispiel-Karte. Es sind folgende Daten angegeben. Discord-Nutzername, Level, Charakter, Freundescode und Ränge in Herschafft, Muschelchaos, Goldfischkanone, Turmkommando und Salmon Run.
 
-.. csv-table:: Befehle
+**Befehle**:
+
+.. csv-table::
     :widths: auto
     :align: left
     :header: "Befehl", "Beschreibung", "E", "B"
@@ -222,7 +222,9 @@ Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
     "card bg", "Konfiguriert den Hintergrund der Card."
     "fc [Freundescode]", "Setzt oder Aktualisiert deinen Freundescode."
 
-.. csv-table:: Erklärung der Modi
+**Erklärung der Modi**:
+
+.. csv-table::
     :widths: auto
     :align: left
     :header: "Kürzel", "Modus", "Ursprung"
