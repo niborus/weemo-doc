@@ -176,7 +176,7 @@ E = Funktioniert in Embedform, B = Funktioniert in Bildform.
     :align: left
     :header: "Befehl", "Beschreibung", "E", "B"
 
-    "profile [@User]", "Ruft die Rangkarte des gepingtem Mitglied auf.", "|tick|", "|tick|"
+    "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf.", "|tick|", "|tick|"
     "profile desc [Deine Beschreibung]", "Aktualisiert deine Beschreibung.", "|tick|", "[3]_"
     "profile bg [Hintergrund]", "Setzt den Hintergrund deines Profils.", "", "|tick|"
     "profile banner [URL]", "Setzt den Banner deines Profils.", "|tick|", ""
