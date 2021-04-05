@@ -118,7 +118,7 @@ Serverpunte
     "removepoints [Anzahl] [@User]", "Entfernt einem User Serverpunkte."
     "resetpoints [@User | all]", "Entfernt alle Serverpunkte (des Users.)"
     "ignore_", "", "ignorechannel"
-    "", ""
+
 
 Details
 =======
