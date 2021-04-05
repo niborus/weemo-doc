@@ -3,14 +3,14 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Wilkommen bei der Dokumentation für Weemo!
+Willkommen bei der Dokumentation für Weemo!
 ==========================================
 
 Weemo • Ein frecher, aber dennoch sehr nützlicher Discord Bot. Frisch aus der Deepsea Metro.
 
 Ausgestattet mit
 ----------------
-- Nützlichen Befehlen wie userinfo, serverinfo, roleinfo etc.
+- Nützlichen Befehlen wie `userinfo`, `serverinfo`, `roleinfo` etc.
 - einem AutoMod, Modlog & vielen Moderationsbefehlen
 - Levelrollen & Serverpunkten
 - Reactionroles
