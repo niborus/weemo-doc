@@ -2,7 +2,7 @@ Weemo Dokumentation
 ===================
 .. image:: https://readthedocs.org/projects/weemo/badge/?version=latest
 
-Weemo ist ein deutschprachiger Discord-Bot.
+Weemo ist ein deutschsprachiger Discord-Bot.
 
 Links
 -----
