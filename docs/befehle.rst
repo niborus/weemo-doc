@@ -103,6 +103,22 @@ Geld auf der Bank kann nicht gestohlen und nicht an andere gegeben werden.
     "job_", "Gehe gegen Bezahlung arbeiten."
     "inv", "Zeigt dein Inventar an."
 
+Serverpunte
+^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung", "Aliase"
+
+    "rank <User>", "Zeigt die Rangübersicht an."
+    "leveledroles_", "Richtet Levelrollen ein.", "lr"
+    "top <Seite>", "Zeigt die Nutzer\*innen mit den meisten Serverpunkten an."
+    "addpoints [Anzahl] [@User]", "Gibt einem User Serverpunkte."
+    "removepoints [Anzahl] [@User]", "Entfernt einem User Serverpunkte."
+    "resetpoints [@User | all]", "Entfernt alle Serverpunkte (des Users.)"
+    "ignore_", "", "ignorechannel"
+    "", ""
 
 Details
 =======
@@ -261,7 +277,6 @@ Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
     "CB", "Muschelchaos", "Clam Blitz"
     "SALMON", "Salmon Run", "Salmon Run"
 
-
 shop
 ^^^^
 
@@ -293,6 +308,46 @@ Für einige Jobs benötigst du ein Item aus dem Shop_.
     "job", "Zeige verfügbare Jobs an."
     "job [Zahl]", "Starte einen Job."
     "job", "Hole dir dein Gehalt ab."
+
+leveledroles
+^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "leveledroles add [@Rolle] [Serverpunkte]", "Fügt eine neue Levelrolle hinzu."
+    "leveledroles remove [@Rolle]", "Entfernt die Levelrolle."
+    "leveledroles setmessage [Nachricht]", "Stellt die benutzerdefinierte Levelrollennachricht ein."
+    "leveledroles message", "Zeigt die benutzerdefinierte Levelrollennachricht."
+    "leveledroles list", "Listet die Levelrollen für den Server auf."
+    "leveledroles setchannel [#Channel]", "Konfiguriert den Levelup-Nachrichtenkanal."
+    "leveledroles removechannel", "Entfernt den Levelup-Nachrichtenkanal, sofern er existiert."
+
+Platzhalter für Nachrichtentext:
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Platzhalter", "Beschreibung"
+
+    "``%user%``", "Nutzer"
+    "``%role%``", "Rolle"
+
+ignore
+^^^^^^
+
+Alias: ``ignorechannel``
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "ignore add [#Textkanal]", "Fügt den Channel hinzu, in dem keine Serverpunkte gesammelt werden sollen."
+    "ignore remove [#Textkanal]", "Entfernt den Channel eben wieder. Serverpunkte werden dann aber wieder gesammelt."
+    "ignore list", "Listet alle Channel auf, in denen keine Serverpunkte gesammelt werden sollen."
 
 
 
