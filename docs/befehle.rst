@@ -78,6 +78,32 @@ Profil
 .. [2] Der Cakeday ist der Jahrestag der Erstellung deines Discord-Accounts.
     Den Tag bekommt Weemo von Discord mitgeteilt.
 
+Konto
+^^^^^
+
+Das Weemo-Guthaben besteht aus zwei Geldbörsen: Dem Taschengeld und dem Bankkonto.
+Wenn du Geld bekommst, wird dir dies als Taschengeld gegeben.
+Du kannst es danach auf dein Konto einzahlen und von dort wieder abheben.
+
+Geld auf der Bank kann nicht gestohlen und nicht an andere gegeben werden.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung", "Aliase"
+
+    "daily", "Gibt dir dein tägliches Taschengeld."
+    "weekly", "Gibt dir dein wöchentliches Taschengeld."
+    "balance <User>", "Zeigt den Kontostand an.", "bal"
+    "deposit [Menge | all]", "Zahl Taschengeld auf die Bank ein.", "dep"
+    "withdraw [Menge | all]", "Hebt Geld von der Bank ab.", "draw"
+    "pay [@User] [Menge]", "Bezahlt den Nutzer mit Taschengeld."
+    "rob [@User]", "Stiehlt jemandem das Taschengeld."
+    "shop_", "Benutze den Weemo-Shop."
+    "job_", "Gehe gegen Bezahlung arbeiten."
+    "inv", "Zeigt dein Inventar an."
+
+
 Details
 =======
 
@@ -234,6 +260,39 @@ Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
     "TC", "Turm Kommando", "Tower Control"
     "CB", "Muschelchaos", "Clam Blitz"
     "SALMON", "Salmon Run", "Salmon Run"
+
+
+shop
+^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "shop <Seitenzahl>", "Zeigt die Auswahl im Shop an.",
+    "shop [Item]", "Kaufe ein Item im Shop.",
+    "shop cookie [Anzahl]", "Kaufe Kekse."
+    "shop show [Item]", "Zeige eine Vorschau für den Hintergrund."
+    "shop settings pay [CP | Bank]", "Stelle ein, ob du mit Taschengeld (CP) oder vom Bankkonto bezahlen möchtest."
+
+job
+^^^
+
+Der *Job* ist ein Zeitspiel.
+Suche dir einen der Jobs aus und komm dann nach der angegeben Zeit wieder, um dein Taschengeld mitzunehmen.
+Wenn du zu spät kommst gibt es kein Gehalt.
+Du kannst nur einen Job pro Tag machen.
+Für einige Jobs benötigst du ein Item aus dem Shop_.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "job", "Zeige verfügbare Jobs an."
+    "job [Zahl]", "Starte einen Job."
+    "job", "Hole dir dein Gehalt ab."
 
 
 
