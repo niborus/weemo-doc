@@ -119,6 +119,27 @@ Serverpunte
     "resetpoints [@User | all]", "Entfernt alle Serverpunkte (des Users.)"
     "ignore_", "", "ignorechannel"
 
+Moderation
+^^^^^^^^^^
+
+Eine detailierte Beschreibung kann im Abschnitt :ref:`Moderation<moderation>` gefunden werden.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung", "Aliase"
+
+    ":ref:`ban<moderation_ban>` [@Mitglied] [Grund]", "Bannt ein Mitglied."
+    ":ref:`idban<moderation_idban>` [ID] [Grund]", "Bannt ein Mitglied über die ID."
+    ":ref:`tempban<moderation_tempban>` [@Mitglied] [Dauer] [Grund]", "Bannt ein Mitglied zeitweise vom Server."
+    ":ref:`unban<moderation_unban>` [UserID]", "Entbannt eine gebannte Person."
+    ":ref:`mute<moderation_mute>` [@Mitglied] [Dauer] <Grund>", "Muted ein Mitglied."
+    ":ref:`unmute<moderation_unmute>` [@Mitglied]", "Entmuted ein Mitglied."
+    ":ref:`kick<moderation_kick>` [@Mitglied] [Grund]", "Kickt ein Mitglied.", "raus"
+    ":ref:`warn<moderation_warn>` [@Mitglied] [Grund]", "Verwarnt ein Mitglied."
+    ":ref:`purge<moderation_purge>` [Zahl]", "Löscht die letzten x Nachrichten.", "cc"
+    ":ref:`punishments<moderation_punishments>` <@Mitglied>", "Zeigt Verwarnungen des Mitglieds an."
+
 
 Details
 =======
