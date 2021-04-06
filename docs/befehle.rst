@@ -148,7 +148,7 @@ Serververwaltung
     :align: left
     :header: "Befehl", "Beschreibung", "Aliase"
 
-    "modlog", "Verwaltet das Modlog."
+    ":ref:`modlog<modlog>`", "Verwaltet das Modlog."
     ":ref:`joinmsg<joinmsg_leavemsg>`", "Richtet die Join-Nachricht ein."
     ":ref:`leavemsg<joinmsg_leavemsg>`", "Richtet die Leave-Nachricht ein."
     "joinrole_", "Richtet die Join-Rolle ein."

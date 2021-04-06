@@ -129,3 +129,66 @@ Zeigt die Verwarnungen eines Mitglieds an.
 Syntax: ``w#punishments id <ID>``
 
 Zeigt die Verwarnung mit der angegebenen ID an.
+
+
+.. _modlog:
+
+Modlog
+======
+
+Das Modlog speichert Ereignisse ab, die auf dem Server passieren.
+Es speichert gelöschte und geänderte Nachrichten, was der Automod gelöscht hat, wer verwarnt wurde und warum,
+wann welche Einstellungen geändert wurden und vieles mehr.
+Dies ist für Moderator\*innen nützlich, um gelöschte Beleidigungen oder veränderte Gespräche nachzuvollziehen.
+
+Der Modlog sollte ein eigener Textkanal sein, kann aber mit dem Log anderer Bots kombiniert werden.
+Wir empfehlen, den Modlog zu einem privatem Kanal zu machen, auf den nur Moderator\*innen zugriff haben.
+
+Einstellungen
+^^^^^^^^^^^^^
+
+Mit ``w#modlog setchannel [logchannel]`` kann ein Textkanal als Modlog-Kanal eingestellt werden.
+
+Eine Übersicht, welche Module aktiv sind, kann mit ``w#modlog`` abgefragt werden.
+Durch die eingabe von ``w#modlog``, gefolgt von der Nummer den Moduls in einer zweiten Nachricht,
+kann eine Modul aktiviert/deaktiviert werden.
+
+Es exestieren folgende Module:
+
++--------+-----------------------------+------------------------------------------+
+| Nummer | Log für                     | Beinhaltet                               |
++========+=============================+==========================================+
+|      1 | Gilden                      | - Serverregion aktualisiert              |
+|        |                             | - Serverinhaber\*in gewechselt           |
+|        |                             | - Servername geändert                    |
+|        |                             | - Servericon geändert                    |
+|        |                             | - Verifizierungsstufe verändert          |
+|        |                             | - Mitglied gebannt                       |
+|        |                             | - Mitglied entbannt                      |
+|        |                             | - moderativer Befehl ausgeführt          |
++--------+-----------------------------+------------------------------------------+
+|      2 | Sprachkanal                 | - Sprachkanal betreten                   |
+|        |                             | - Sprachkanal verlassen                  |
+|        |                             | - Sprachkanal gewechselt                 |
+|        |                             | - Sprachkanal erstellt                   |
+|        |                             | - Sprachkanal gelöscht                   |
++--------+-----------------------------+------------------------------------------+
+|      3 | Textkanal                   | - Textkanal erstellt                     |
+|        |                             | - Textkanal gelöscht                     |
+|        |                             | - Sprachkanal erstellt                   |
+|        |                             | - Sprachkanal gelöscht                   |
++--------+-----------------------------+------------------------------------------+
+|      4 | Bearbeitete Nachrichten     | - Mitglied hat eine Nachricht bearbeitet |
++--------+-----------------------------+------------------------------------------+
+|      5 | Server betreten & verlassen | - Mitglied hat den Server betreten       |
+|        |                             | - Mitglied hat den Server verlassen      |
++--------+-----------------------------+------------------------------------------+
+|      6 | Rollen                      | - Rolle erhalten                         |
+|        |                             | - Rolle entfernt                         |
+|        |                             | - Rolle erstellt                         |
+|        |                             | - Rolle gelöscht                         |
++--------+-----------------------------+------------------------------------------+
+|      7 | Nachrichten gelöscht        | - Mitglied hat Nachricht gelöscht        |
++--------+-----------------------------+------------------------------------------+
+|      8 | Mitglieder                  | - Nickname geändert                      |
++--------+-----------------------------+------------------------------------------+
