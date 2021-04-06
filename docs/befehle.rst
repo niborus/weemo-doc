@@ -376,6 +376,8 @@ Platzhalter für Nachrichtentext:
     "``%user%``", "Nutzer"
     "``%role%``", "Rolle"
 
+.. note:: Siehe auch ":ref:`no_roles`", falls ein Fehler auftritt.
+
 ignore
 ^^^^^^
 
