@@ -130,7 +130,7 @@ Eine detailierte Beschreibung kann im Abschnitt :ref:`Moderation<moderation>` ge
     :header: "Befehl", "Beschreibung", "Aliase"
 
     ":ref:`ban<moderation_ban>` [@Mitglied] [Grund]", "Bannt ein Mitglied."
-    ":ref:`idban<moderation_idban>` [ID] [Grund]", "Bannt ein Mitglied über die ID."
+    ":ref:`idban<moderation_idban>` [:ref:`ID<id>`] [Grund]", "Bannt ein Mitglied über die :ref:`ID<id>`."
     ":ref:`tempban<moderation_tempban>` [@Mitglied] [Dauer] [Grund]", "Bannt ein Mitglied zeitweise vom Server."
     ":ref:`unban<moderation_unban>` [UserID]", "Entbannt eine gebannte Person."
     ":ref:`mute<moderation_mute>` [@Mitglied] [Dauer] <Grund>", "Muted ein Mitglied."
@@ -139,6 +139,26 @@ Eine detailierte Beschreibung kann im Abschnitt :ref:`Moderation<moderation>` ge
     ":ref:`warn<moderation_warn>` [@Mitglied] [Grund]", "Verwarnt ein Mitglied."
     ":ref:`purge<moderation_purge>` [Zahl]", "Löscht die letzten x Nachrichten.", "cc"
     ":ref:`punishments<moderation_punishments>` <@Mitglied>", "Zeigt Verwarnungen des Mitglieds an."
+
+Serververwaltung
+^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung", "Aliase"
+
+    "modlog", "Verwaltet das Modlog."
+    ":ref:`joinmsg<joinmsg_leavemsg>`", "Richtet die Join-Nachricht ein."
+    ":ref:`leavemsg<joinmsg_leavemsg>`", "Richtet die Leave-Nachricht ein."
+    "joinrole_", "Richtet die Join-Rolle ein."
+    "modrole", "Richtet die Mod-Rolle ein."
+    "slowdown [Zeit in s]", "Fügt einen Slowmode zu dem Kanal."
+    "mcount_", "Verwaltung der Mitgliedszähleranzeige."
+    "automod", "Verwaltung des Automod."
+    "reactionroles_", "Verwaltung der Reaktionsrollen", "rr"
+    "prefix [prefix]", "Ändert Weemos Prefix."
+    "roleemote add [Name] [@Rolle]", "Fügt ein neues Emote hinzu, welches nur mit einer bestimmten Rolle sichtbar ist."
 
 
 Details
@@ -369,6 +389,89 @@ Alias: ``ignorechannel``
     "ignore add [#Textkanal]", "Fügt den Channel hinzu, in dem keine Serverpunkte gesammelt werden sollen."
     "ignore remove [#Textkanal]", "Entfernt den Channel eben wieder. Serverpunkte werden dann aber wieder gesammelt."
     "ignore list", "Listet alle Channel auf, in denen keine Serverpunkte gesammelt werden sollen."
+
+.. _joinmsg_leavemsg:
+
+joinmsg / leavemsg
+^^^^^^^^^^^^^^^^^^
+
+Richtet die Nachricht ein, die gesendet wird, wenn jemand den Server verlässt oder betritt.
+
+Alle Befehle, bei denen *LM* markiert ist, funktionieren auch für ``leavemsg``.
+(Mit ``leavemsg`` statt ``joinmsg``.)
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung", "LM"
+
+    "joinmsg setchannel [Kanal]", "Stellt den Channel ein, in dem die Nachricht eingestellt werden soll.", "|tick|"
+    "joinmsg setmessage [Nachricht]", "Stellt die Nachricht ein, die dann verwendet werden soll.", "|tick|"
+    "joinmsg reset", "Entfernt die Nachricht, die eingestellt wurde.", "|tick|"
+    "joinmsg type [dm|channel]", "Stellt ein, ob die Nachricht in einem Channel oder per DM des Users reingeschickt werden soll.", ""
+    "joinmsg embed", "Stellt ein, ob die Nachricht in einer Embed oder ohne Embed reingeschickt wird.", "|tick|"
+
+joinrole
+^^^^^^^^
+
+Die Join-Rolle ist eine Rolle, die an jeden vergeben wird, der/die den Server betritt.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "joinrole set [Rollenname]", "Richtet die Rolle ein."
+    "joinrole reset", "Die Rolle wird nicht mehr vergeben."
+
+.. note:: Siehe auch ":ref:`no_roles`", falls ein Fehler auftritt.
+
+mcount
+^^^^^^
+
+Alias: ``membercount``
+
+Ändert regelmäßig den Namen eines Sprachkanals, so dass dieser die Anzahl an Mitgliedern anzeigt.
+
+.. image:: images/membercount.png
+      :alt: Zwei Sprachkanäle. Mitglieder: 572, davon Bots: 10
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "mcount member [:ref:`ID<id>`]", "Setzt den Livecounter für die Mitgliederanzahl."
+    "mcount member remove", "Entfernt den Livecounter für die Mitgliederanzahl."
+    "mcount bots [:ref:`ID<id>`]", "Setzt den Livecounter für die Botanzahl."
+    "mcount bots remove", "Entfernt den Livecounter für die Botanzahl."
+
+.. note:: Durch Discords neuen Ratelimits für Sprachkanäle kann es desöfteren mal passieren, dass Weemo den Kanal nicht aktualisiert.
+
+reactionroles
+^^^^^^^^^^^^^
+
+Alias: ``rr``
+
+Beim Anklicken einer Reaktion wird der Person eine Rolle gegeben.
+Beim entfernen der Reaktion wird die Rolle wieder entfernt.
+
+Beispiel für die Verwendung von ReactionRoles:
+
+.. image:: images/rr.png
+      :alt: Ein Beispiel für die Anwendung von ReactionRoles.
+
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "rr add [#Textkanal] [:ref:`Nachrichtenid<id>`] [Emote] [@Rolle]", "Fügt eine Reaktion mit einer verbunden Rolle zu einer Nachricht zu."
+    "rr remove [#Textkanal] [:ref:`Nachrichtenid<id>`] [Emote]", "Entfernt die Reaktion mit einer verbunden Rolle von einer Nachricht."
+    "rr unique [#Textkanal] [:ref:`Nachrichtenid<id>`]", "Stellt ein, ob an dieser Nachricht max. 1 Rolle ausgewählt werden darf oder nicht."
+
+.. note:: Siehe auch ":ref:`no_roles`", falls ein Fehler auftritt.
 
 
 

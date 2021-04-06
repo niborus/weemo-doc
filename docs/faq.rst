@@ -4,6 +4,8 @@ Häufige Fragen und Probleme
 
 .. contents:: Inhalte
 
+.. _no_roles:
+
 Weemo verteilt die Rollen nicht
 ===============================
 
