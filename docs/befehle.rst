@@ -183,6 +183,26 @@ Musik
 
 .. [3] Benötigt eine Rolle mit dem Namen "DJ", wenn mehr als 2 Mitglieder im Voicechannel sind.
 
+
+Anime
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "hug [@User]", "Umarme ein Mitglied."
+    "cry", "Weine und lass es alles einfach mal raus."
+    "cuddle [@User]", "Knuddel ein Mitglied."
+    "pat [@User]", "Kraule ein Mitglied."
+    "tickle [@User]", "Kitzel ein Mitglied."
+    "stare <@User>", "Beobachte wen. Unheimlich"
+    "kiss [@User]", "Küsse ein Mitglied."
+    "slap [@User]", "Schlage ein Mitglied. Autsch."
+    "neko", "Zeigt dein Neko."
+    "owoify [Nachricht]", "Owoifyt die NYachwicht."
+
 Details
 =======
 
