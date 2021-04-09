@@ -137,7 +137,7 @@ Eine detailierte Beschreibung kann im Abschnitt :ref:`Moderation<moderation>` ge
     ":ref:`unmute<moderation_unmute>` [@Mitglied]", "Entmuted ein Mitglied."
     ":ref:`kick<moderation_kick>` [@Mitglied] [Grund]", "Kickt ein Mitglied.", "raus"
     ":ref:`warn<moderation_warn>` [@Mitglied] [Grund]", "Verwarnt ein Mitglied."
-    ":ref:`purge<moderation_purge>` [Zahl]", "Löscht die letzten x Nachrichten.", "cc"
+    ":ref:`purge<moderation_purge>` [Zahl]", "Löscht die letzten x Nachrichten.", "cc, clear"
     ":ref:`punishments<moderation_punishments>` <@Mitglied>", "Zeigt Verwarnungen des Mitglieds an."
 
 Serververwaltung
@@ -160,6 +160,28 @@ Serververwaltung
     "prefix [prefix]", "Ändert Weemos Prefix."
     "roleemote add [Name] [@Rolle]", "Fügt ein neues Emote hinzu, welches nur mit einer bestimmten Rolle sichtbar ist."
 
+
+Musik
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung", "Aliase", ""
+
+    "play_ [Lied]", "Fügt einen Song zur Warteschlange hinzu.", "p"
+    "queue", "Zeigt die Warteschlange an.", "q"
+    "pause", "Pausiert oder spielt die Musik weiter ab.", "resume", "[3]_"
+    "skip", "Überspringt das aktuelle Lied.", "s", "[3]_"
+    "volume [1-100]", "Stellt die Lautstärke ein.", "vol", "[3]_"
+    "stop", "Weemo verlässt den Sprachkanal.", "", "[3]_"
+    "stick", "Heftet Weemo an den Kanal fest.", ""
+    "loop", "Wiedholt das einzelne Lied oder die Warteschlange.", "", "[3]_"
+    "lyrics <Lied>", "Sucht die Lyrics des aktuellen oder angegeben Liedes.", ""
+    "bassboost_ [modi]", "Ein wenig mehr Bass gefällig?", "", "[3]_"
+    "radio_ [Sender]", "Spielt einen Radiosender ab.", ""
+
+.. [3] Benötigt eine Rolle mit dem Namen "DJ", wenn mehr als 2 Mitglieder im Voicechannel sind.
 
 Details
 =======
@@ -260,14 +282,14 @@ E = Funktioniert in Embedform, B = Funktioniert in Bildform.
     :header: "Befehl", "Beschreibung", "E", "B"
 
     "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf.", "|tick|", "|tick|"
-    "profile desc [Deine Beschreibung]", "Aktualisiert deine Beschreibung.", "|tick|", "[3]_"
+    "profile desc [Deine Beschreibung]", "Aktualisiert deine Beschreibung.", "|tick|", "[4]_"
     "profile bg [Hintergrund]", "Setzt den Hintergrund deines Profils.", "", "|tick|"
     "profile banner [URL]", "Setzt den Banner deines Profils.", "|tick|", ""
     "profile social", "Verlinke deine Socialmedia-Accounts.", "|tick|", "|tick|"
     "profile badge [Badge]", "Zeigt Informationen über das Badge an.", "|tick|", "|tick|"
     "profile settings", "Verwalte dein Profil.", "|tick|", "|tick|"
 
-.. [3] Wird möglicherweise gekürzt angezeigt.
+.. [4] Wird möglicherweise gekürzt angezeigt.
 
 **Hintergründe**:
 
@@ -475,6 +497,34 @@ Beispiel für die Verwendung von ReactionRoles:
 
 .. note:: Siehe auch ":ref:`no_roles`", falls ein Fehler auftritt.
 
+play
+^^^^
+
+Fügt ein Lied zur Warteschlange hinzu.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "play [Lied]", "Sucht das Lied und fügt es zur Warteschlange."
+    "play [URL]", "Spielt das Lied von der URL ab."
+
+bassboost
+^^^^^^^^^
+
+Modi für den Bassboost sind (in aufsteigender Reihenfolge):
+*off*, *low*, *medium*, *high*, *wtf*
+
+radio
+^^^^^
+
+Mit ``radio [Sender]`` kann Weemo Radiosender abspielen.
+Die Sender können mit ``radio`` nachgeschlagen werden.
+
+Sender, die nicht voreingestellt sind, können mit ``play [Stream-URL]`` angespielt werden.
+Auf Ubuntuusers findet ihr eine Liste mit `Stationen <https://wiki.ubuntuusers.de/Internetradio/Stationen/>`_ und
+`Internetradio-Stationen <https://wiki.ubuntuusers.de/Internetradio/Internetradio-Stationen/>`_.
 
 
 .. |cookie| unicode:: 0x1f36a .. Keks Emoji
