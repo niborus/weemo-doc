@@ -221,6 +221,38 @@ Anime
     "neko", "Zeigt dein Neko."
     "owoify [Nachricht]", "Owoifyt die NYachwicht."
 
+Bildgeneration
+^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "trump [Nachricht]", "Erstellt ein Trump-Meme."
+    "beautiful <@User>", "Erstellt ein Beautiful-Meme."
+    "worthless [Nachricht]", "Erstellt ein Worthless-Meme."
+    "spiderman [Nachricht]", "Erstellt ein Spiderman-Meme."
+    "simp <@User>", "Erstellt einen Simp-Ausweis."
+    "snow <@User>", "Fügt Schnee über das Profilbild."
+    "invert <@User>", "Invertiert das Profilbild."
+    "blueify <@User>", "Blueifyt das Profilbild."
+    "shoot <@User>", "Erstellt ein Shoot-Meme."
+    "punch [@User]", "Erstellt ein Punch-Meme."
+    "darken <@User>", "Verdunkelt das Profilbild."
+    "smrt <@User>", "Erstellt ein SMRT-Meme."
+
+Spielstatistiken
+^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "osustats [OSU-Name]", "Zeigt Statistiken über das OSU-Profil."
+
+
 Details
 =======
 
