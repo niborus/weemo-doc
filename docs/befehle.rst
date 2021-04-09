@@ -184,6 +184,24 @@ Musik
 .. [3] Benötigt eine Rolle mit dem Namen "DJ", wenn mehr als 2 Mitglieder im Voicechannel sind.
 
 
+Private Sprachkanäle
+^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "create", "Erstellt einen privaten Sprachkanal."
+    "delete", "Löscht den eigenen Kanal."
+    "roominvite [@User]", "Lädt jemanden in den eigenen Kanal ein."
+    "roomkick [@User]", "Kickt jemanden aus dem eigenen Kanal."
+    "visibility [public|invite]", "Legt fest, ob der Kanal öffentlich ist."
+    "rename [Neuer Name]", "Benennt den Raum um."
+    "forcedel [@User]", "Löscht den Sprachkanal aus Weemos Datenbank. Siehe auch :ref:`FAQ<forcedel>`."
+    "setcategory [:ref:`Kategorie-ID<id>`]", "Legt die Kategorie für die Kanäle fest."
+
+
 Anime
 ^^^^^
 
