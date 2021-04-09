@@ -155,7 +155,7 @@ Serververwaltung
     "modrole", "Richtet die Mod-Rolle ein."
     "slowdown [Zeit in s]", "Fügt einen Slowmode zu dem Kanal."
     "mcount_", "Verwaltung der Mitgliedszähleranzeige."
-    "automod", "Verwaltung des Automod."
+    ":ref:`automod<automod>`", "Verwaltung des Automod."
     "reactionroles_", "Verwaltung der Reaktionsrollen", "rr"
     "prefix [prefix]", "Ändert Weemos Prefix."
     "roleemote add [Name] [@Rolle]", "Fügt ein neues Emote hinzu, welches nur mit einer bestimmten Rolle sichtbar ist."

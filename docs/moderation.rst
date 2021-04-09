@@ -192,3 +192,68 @@ Es exestieren folgende Module:
 +--------+-----------------------------+------------------------------------------+
 |      8 | Mitglieder                  | - Nickname geändert                      |
 +--------+-----------------------------+------------------------------------------+
+
+.. _automod:
+
+Automod
+=======
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "automod toggle", "Aktiviert oder deaktiviert den AutoMod."
+    "automod filter", "Zeigt die Wörter/Dateiendungen, die vom AutoMod erfasst werden."
+
+Wortfilter
+^^^^^^^^^^
+
+Der Wortfilter schlägt an, falls eines der Wörter in einer Nachricht vorkommt. Es reicht, wenn das Wort als Teil eines
+anderen Wortes vorkommt. So wird das Wort "but" auch in dem Wort "Butter" erkannt.
+
+Mit ``w#automod filter add [Wort]`` und ``w#automod filter remove [Wort]`` können Wörter hinzugefügt und entfernt
+werden.
+
+Dateifilter
+^^^^^^^^^^^
+
+Der Dateifilter löscht Nachrichten mit Anhängen, die eine bestimmte Dateiendung haben.
+Standardmäßig sind einige Dateiendungen die häufig für Schadsoftware verwendet werden (wie ``.exe`` oder ``.sh``)
+bereits eingerichtet.
+
+.. warning:: Weemo hat keinen Virenscaner. Dateien die vom Automod nicht erfasst werden, können trotzdem Schadsoftware enthalten.
+
+Der Dateifilter kann mit ``w#automod filter file`` aktiviert, bzw. deaktiviert werden.
+Mit ``w#automod filter add .[Dateiendung]`` und ``w#automod filter remove .[Dateiendung]`` können Dateiendungen
+hinzugefügt und entfernt werden. (z.B. ``w#automod filter add .exe``)
+
+Einladungsfilter
+^^^^^^^^^^^^^^^^
+
+Der Einladungsfilter erfasst Discord-Einladungslinks. Er kann mit ``w#automod filter invites`` aktiviert oder deaktiviert werden.
+
+Capslockfilter
+^^^^^^^^^^^^^^
+
+Der Capslockfilter löscht Nachrichten, deren Inhalt zu einem großteil aus Großbuchstaben besteht.
+Nachrichten mit weniger als zehn Zeichen werden ignoriert um das Filtern von Abkürzungen zu vermeiden.
+
+``ẁ#automod filter caps <Wert>`` aktiviert oder deaktiviert den Capslockfilter.
+``<Wert>`` ist optional, damit kannst du den den Prozentwert angeben, ab wann der Capslockfilter durchgreifen soll.
+(Standardmäßig 50%)
+
+Nachricht
+^^^^^^^^^
+
+Falls der Automod durchgreift, sendet Weemo eine Nachricht in den entsprechenden Chat. Diese Nachricht kann mit
+``w#automod filter message [Nachricht]`` eingestellt werden.
+Durch das Einfügen von Platzhaltern in die Nachricht, wird diese beim senden auf die Nutzer personalisiert.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Platzhalter", "Beschreibung"
+
+    "``%user%``", "Name des Nutzers / der Nutzerin"
+    "``%mention%``", "Erwähnung des Nutzers / der Nutzerin"
