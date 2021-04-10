@@ -95,8 +95,8 @@ Geld auf der Bank kann nicht gestohlen und nicht an andere gegeben werden.
     "daily", "Gibt dir dein tägliches Taschengeld."
     "weekly", "Gibt dir dein wöchentliches Taschengeld."
     "balance <User>", "Zeigt den Kontostand an.", "bal"
-    "deposit [Menge | all]", "Zahl Taschengeld auf die Bank ein.", "dep"
-    "withdraw [Menge | all]", "Hebt Geld von der Bank ab.", "draw"
+    "deposit [Menge |nbsp| | |nbsp| all]", "Zahl Taschengeld auf die Bank ein.", "dep"
+    "withdraw [Menge |nbsp| | |nbsp| all]", "Hebt Geld von der Bank ab.", "draw"
     "pay [@User] [Menge]", "Bezahlt den Nutzer mit Taschengeld."
     "rob [@User]", "Stiehlt jemandem das Taschengeld."
     "shop_", "Benutze den Weemo-Shop."
@@ -116,7 +116,7 @@ Serverpunte
     "top <Seite>", "Zeigt die Nutzer\*innen mit den meisten Serverpunkten an."
     "addpoints [Anzahl] [@User]", "Gibt einem User Serverpunkte."
     "removepoints [Anzahl] [@User]", "Entfernt einem User Serverpunkte."
-    "resetpoints [@User | all]", "Entfernt alle Serverpunkte (des Users.)"
+    "resetpoints [@User |nbsp| | |nbsp| all]", "Entfernt alle Serverpunkte (des Users.)"
     "ignore_", "", "ignorechannel"
 
 Moderation
@@ -153,7 +153,7 @@ Serververwaltung
     ":ref:`leavemsg<joinmsg_leavemsg>`", "Richtet die Leave-Nachricht ein."
     "joinrole_", "Richtet die Join-Rolle ein."
     "modrole", "Richtet die Mod-Rolle ein."
-    "slowdown [Zeit in s]", "Fügt einen Slowmode zu dem Kanal."
+    "slowdown [Zeit |nbsp| in |nbsp| s]", "Fügt einen Slowmode zu dem Kanal."
     "mcount_", "Verwaltung der Mitgliedszähleranzeige."
     ":ref:`automod<automod>`", "Verwaltung des Automod."
     "reactionroles_", "Verwaltung der Reaktionsrollen", "rr"
@@ -375,7 +375,7 @@ E = Funktioniert in Embedform, B = Funktioniert in Bildform.
     :header: "Befehl", "Beschreibung", "E", "B"
 
     "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf.", "|tick|", "|tick|"
-    "profile desc [Deine Beschreibung]", "Aktualisiert deine Beschreibung.", "|tick|", "[4]_"
+    "profile desc [Deine |nbsp| Beschreibung]", "Aktualisiert deine Beschreibung.", "|tick|", "[4]_"
     "profile bg [Hintergrund]", "Setzt den Hintergrund deines Profils.", "", "|tick|"
     "profile banner [URL]", "Setzt den Banner deines Profils.", "|tick|", ""
     "profile social", "Verlinke deine Socialmedia-Accounts.", "|tick|", "|tick|"
@@ -394,7 +394,7 @@ Aktuell gibt es die Hintergründe ``default``, ``octo``, ``octo2`` und ``octo3``
 
     Es gibt ``embed`` für die Embed-Form und ``image`` für die Bildform.
 
-    Syntax: ``w#profile settings type [embed | image]``
+    Syntax: ``w#profile settings type [embed |nbsp| | |nbsp| image]``
 
 
 card
@@ -413,8 +413,8 @@ Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
     :header: "Befehl", "Beschreibung", "E", "B"
 
     "card [@User]", "Ruft die Rangkarte des gepingtem Mitglied auf."
-    "card level [Dein Level]", "Aktualisiert dein Level auf den angegebenden Wert."
-    "card char [Inkling / Oktoling]", "Aktualisiert deinen Charakter in der Rangkarte."
+    "card level [Dein |nbsp| Level]", "Aktualisiert dein Level auf den angegebenden Wert."
+    "card char [Inkling |nbsp| / |nbsp| Oktoling]", "Aktualisiert deinen Charakter in der Rangkarte."
     "card rank [SZ, RM, TC, CB, SALMON] [Dein Rang]", "Aktualisiert deinen Rang im angegebendem Modus."
     "card power [SZ, RM, TC, CB] [Power]", "Setzt deine Power im angegebendem Modus."
     "card bg", "Konfiguriert den Hintergrund der Card."
@@ -445,7 +445,7 @@ shop
     "shop [Item]", "Kaufe ein Item im Shop.",
     "shop cookie [Anzahl]", "Kaufe Kekse."
     "shop show [Item]", "Zeige eine Vorschau für den Hintergrund."
-    "shop settings pay [CP | Bank]", "Stelle ein, ob du mit Taschengeld (CP) oder vom Bankkonto bezahlen möchtest."
+    "shop settings pay [CP |nbsp| | |nbsp| Bank]", "Stelle ein, ob du mit Taschengeld (CP) oder vom Bankkonto bezahlen möchtest."
 
 job
 ^^^
