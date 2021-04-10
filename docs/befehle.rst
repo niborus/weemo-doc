@@ -253,6 +253,34 @@ Spielstatistiken
     "osustats [OSU-Name]", "Zeigt Statistiken über das OSU-Profil."
 
 
+Streamankündigungen
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "streamalert_", "Verwaltet Streamankündigungen."
+
+
+Weemo
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "help <Seite>", "Listet alle Befehle auf."
+    "help [Befehl]", "Zeigt weitere Informationen zu einem Befehl an."
+    "about", "Live-Informationen über mich."
+    "setup_", "Ich richte dir den Kram für deinen Server ein."
+    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
+    "vote", "Links, um für mich zu voten und mich damit zu unterstützen."
+    "invite", "Der Link, um mich einzuladen."
+
+
 Details
 =======
 
@@ -595,6 +623,33 @@ Die Sender können mit ``radio`` nachgeschlagen werden.
 Sender, die nicht voreingestellt sind, können mit ``play [Stream-URL]`` angespielt werden.
 Auf Ubuntuusers findet ihr eine Liste mit `Stationen <https://wiki.ubuntuusers.de/Internetradio/Stationen/>`_ und
 `Internetradio-Stationen <https://wiki.ubuntuusers.de/Internetradio/Internetradio-Stationen/>`_.
+
+streamalert
+^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "streamalert setchannel [#Kanal]", "Setzt den Textkanal, in dem **alle** Streamankündigungen angekündigt werden sollen."
+    "streamalert follow [Kanalname]", "Fügt einen Kanal hinzu."
+    "streamalert unfollow [Kanalname]", "Entfernt einen Kanal, der hinzugefügt wurde."
+    "streamalert list", "Listet alle Kanäle auf, die für diesen Server hinzugefügt wurden."
+
+.. note:: Diese Funktion befindet sich aktuell in der öffentlichen Testphase, Bugs und Fehler könnten jederzeit noch auftreten.
+
+setup
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "setup emojiquiz", "Ich erstelle das :ref:`Emojiquiz<emojiquiz>` und stelle auch hier die Berechtigungen für den Channel dementsprechend ein."
+    "setup check", "Ich gehe alle Berechtigungen durch und überprüfe, ob ich die habe. *(für erfahrende Nutzer)*."
+
 
 
 .. |cookie| unicode:: 0x1f36a .. Keks Emoji
