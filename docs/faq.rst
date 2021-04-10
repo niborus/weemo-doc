@@ -4,6 +4,8 @@ Häufige Fragen und Probleme
 
 .. contents:: Inhalte
 
+.. _no_roles:
+
 Weemo verteilt die Rollen nicht
 ===============================
 
@@ -81,3 +83,12 @@ Es gibt drei Arten, eine ID herauszufinden:
 
 #. Nutze die Befehle ``roleinfo``, ``userinfo``, ``channelinfo`` bzw. ``serverinfo``.
    Weemo wird euch auch dort die ID anzeigen.
+
+.. _forcedel:
+
+Weemo sagt, ich habe noch einen privaten Sprachkanal, obwohl ich keinen habe.
+=============================================================================
+
+Wenn der private Sprachkanal per Hand gelöscht wurde, ist er noch in Weemos Datenbank verfügbar.
+Um ihn aus der Datenbank zu löschen, muss der Befehl ``w#forcedel [@User]`` verwendet werden.
+Erst dann wird Weemo einen neuen Sprachkanal vergeben.
