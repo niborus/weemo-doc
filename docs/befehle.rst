@@ -183,6 +183,7 @@ Musik
 
 .. [3] Benötigt eine Rolle mit dem Namen "DJ", wenn mehr als 2 Mitglieder im Voicechannel sind.
 
+.. _befehle_private_sprachkanaele:
 
 Private Sprachkanäle
 ^^^^^^^^^^^^^^^^^^^^
@@ -349,6 +350,8 @@ Dein Geburtstag (ohne Jahr) ist öffentlich in deinem Profil sichtbar und wird v
 .. warning:: Der Geburtstag kann nach dem ersten Eintragen nicht geändert und nur über den Weemo-Support gelöscht werden.
 
 
+.. _befehle_profile:
+
 profile
 ^^^^^^^
 
@@ -396,6 +399,7 @@ Aktuell gibt es die Hintergründe ``default``, ``octo``, ``octo2`` und ``octo3``
 
     Syntax: ``w#profile settings type [embed |nbsp| | |nbsp| image]``
 
+.. _befehle_card:
 
 card
 ^^^^
@@ -465,6 +469,8 @@ Für einige Jobs benötigst du ein Item aus dem Shop_.
     "job [Zahl]", "Starte einen Job."
     "job", "Hole dir dein Gehalt ab."
 
+.. _befehle_leveledroles:
+
 leveledroles
 ^^^^^^^^^^^^
 
@@ -529,6 +535,8 @@ Alle Befehle, bei denen *LM* markiert ist, funktionieren auch für ``leavemsg``.
     "joinmsg reset", "Entfernt die Nachricht, die eingestellt wurde.", "|tick|"
     "joinmsg type [dm|channel]", "Stellt ein, ob die Nachricht in einem Channel oder per DM des Users reingeschickt werden soll.", ""
     "joinmsg embed", "Stellt ein, ob die Nachricht in einer Embed oder ohne Embed reingeschickt wird.", "|tick|"
+
+.. _befehle_joinrole:
 
 joinrole
 ^^^^^^^^

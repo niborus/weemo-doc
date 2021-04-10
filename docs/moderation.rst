@@ -4,6 +4,8 @@
 Moderation
 ==========
 
+.. _moderation_befehle:
+
 Befehle
 =======
 
