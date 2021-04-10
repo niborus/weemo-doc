@@ -192,12 +192,7 @@ Private Sprachkanäle
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "create", "Erstellt einen privaten Sprachkanal."
-    "delete", "Löscht den eigenen Kanal."
-    "roominvite [@User]", "Lädt jemanden in den eigenen Kanal ein."
-    "roomkick [@User]", "Kickt jemanden aus dem eigenen Kanal."
-    "visibility [public|invite]", "Legt fest, ob der Kanal öffentlich ist."
-    "rename [Neuer Name]", "Benennt den Raum um."
+    "room_", "Ruft das Menü für private Sprachkanäle auf."
     "forcedel [@User]", "Löscht den Sprachkanal aus Weemos Datenbank. Siehe auch :ref:`FAQ<forcedel>`."
     "setcategory [:ref:`Kategorie-ID<id>`]", "Legt die Kategorie für die Kanäle fest."
 
@@ -250,7 +245,7 @@ Spielstatistiken
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "osustats [OSU-Name]", "Zeigt Statistiken über das OSU-Profil."
+    "osustats [OSU-Name] <--modusname>", "Zeigt Statistiken über das OSU-Profil."
 
 
 Streamankündigungen
@@ -473,18 +468,20 @@ Für einige Jobs benötigst du ein Item aus dem Shop_.
 leveledroles
 ^^^^^^^^^^^^
 
+Durch das Eingeben von ``w#leveledroles``, gefolgt von der Nummer der Option in einer zweiten Nachricht, könnt ihr
+die Levelrollen einstellen.
+
 .. csv-table::
     :widths: auto
     :align: left
-    :header: "Befehl", "Beschreibung"
+    :header: "Option", "Beschreibung"
 
-    "leveledroles add [@Rolle] [Serverpunkte]", "Fügt eine neue Levelrolle hinzu."
-    "leveledroles remove [@Rolle]", "Entfernt die Levelrolle."
-    "leveledroles setmessage [Nachricht]", "Stellt die benutzerdefinierte Levelrollennachricht ein."
-    "leveledroles message", "Zeigt die benutzerdefinierte Levelrollennachricht."
-    "leveledroles list", "Listet die Levelrollen für den Server auf."
-    "leveledroles setchannel [#Channel]", "Konfiguriert den Levelup-Nachrichtenkanal."
-    "leveledroles removechannel", "Entfernt den Levelup-Nachrichtenkanal, sofern er existiert."
+    "1", "Fügt eine neue Levelrolle hinzu."
+    "2", "Entfernt eine Levelrolle."
+    "3", "Konfiguriert die Nachricht, die gesendet werden soll, wenn eine neue Levelrolle an ein Mitglied verteilt wird."
+    "4", "Konfiguriert den Textkanal, in dem alle Levelrollen-Nachrichten gesendet werden sollen, wenn ein Mitglied eine neue Levelrolle erhält."
+    "5", "Listet alle Levelrollen auf."
+    "6", "Stellt ein, ob nur die höchste Levelrolle vergeben werden soll und der Rest entfernt werden soll oder eben auch nicht. c:"
 
 Platzhalter für Nachrichtentext:
 
@@ -594,6 +591,23 @@ Beispiel für die Verwendung von ReactionRoles:
     "rr unique [#Textkanal] [:ref:`Nachrichtenid<id>`]", "Stellt ein, ob an dieser Nachricht max. 1 Rolle ausgewählt werden darf oder nicht."
 
 .. note:: Siehe auch ":ref:`no_roles`", falls ein Fehler auftritt.
+
+room
+^^^^
+
+Durch das Eingeben von ``w#room``, gefolgt von der Nummer der Option in einer zweiten Nachricht, könnt ihr
+private Sprachkanäle steuern.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Option", "Beschreibung"
+
+    "1", "Erstellt einen privaten Sprachkanal für dich."
+    "2", "Löscht deinen privaten Sprachkanal."
+    "3", "Benennt deinen privaten Sprachkanal um."
+    "4", "Kickt ein Mitglied aus deinem privaten Sprachkanal."
+    "5", "Lädt ein Mitglied zu deinem privaten Sprachkanal ein."
 
 play
 ^^^^
