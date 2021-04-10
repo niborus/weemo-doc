@@ -407,6 +407,7 @@ card
 Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
 
 .. image:: images/card_example.png
+    :scale: 40
     :alt: Eine Weemo-Beispiel-Karte. Es sind folgende Daten angegeben. Discord-Nutzername, Level, Charakter, Freundescode und Ränge in Herschafft, Muschelchaos, Goldfischkanone, Turmkommando und Salmon Run.
 
 **Befehle**:
