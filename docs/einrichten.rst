@@ -73,11 +73,6 @@ Private Sprachkanäle
 
 Damit euer Server Private Sprachkanäle nutzen kann, müsst ihr vorher mit **w#setcategory** eine Kategorie für die Kanäle festlegen.
 
-Starboard
----------
-
-Um Informationen zur Einrichtung des Starboards zu bekommen, nutzt **w#help starboard**.
-
 Begrüßung und Verabschiedung
 ----------------------------
 
