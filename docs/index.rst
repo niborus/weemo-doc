@@ -4,7 +4,7 @@
    contain the root `toctree` directive.
 
 Willkommen bei der Dokumentation für Weemo!
-==========================================
+===========================================
 
 Weemo • Ein frecher, aber dennoch sehr nützlicher Discord Bot. Frisch aus der Deepsea Metro.
 
