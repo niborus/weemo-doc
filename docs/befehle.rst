@@ -171,7 +171,7 @@ Musik
     :header: "Befehl", "Beschreibung", "Aliase", ""
 
     "play_ [Lied]", "Fügt einen Song zur Warteschlange hinzu.", "p"
-    "queue", "Zeigt die Warteschlange an.", "q"
+    "queue_", "Zeigt die Warteschlange an.", "q"
     "pause", "Pausiert oder spielt die Musik weiter ab.", "resume", "[3]_"
     "skip", "Überspringt das aktuelle Lied.", "s", "[3]_"
     "volume [1-100]", "Stellt die Lautstärke ein.", "vol", "[3]_"
@@ -630,6 +630,20 @@ Fügt ein Lied zur Warteschlange hinzu.
 
     "play [Lied]", "Sucht das Lied und fügt es zur Warteschlange."
     "play [URL]", "Spielt das Lied von der URL ab."
+
+queue
+^^^^^
+
+Verwaltet die Warteschlange für Musiktitel.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "queue", "Zeigt die aktuelle Warteschlange an."
+    "queue clear", "Leert die Warteschlange."
+    "queue remove [ID]", "Entfernt ein Lied aus der Warteschlange."
 
 bassboost
 ^^^^^^^^^
