@@ -50,8 +50,7 @@ Fun
     "dog", "Sende ein Hundebild. |dog|"
     "cat", "Sende ein Katzenbild. |cat|"
     "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
-    "marry [@User]", "Stelle einen Heiratsantrag. |ring|"
-    "divorce", "Lass dich scheiden. |broken_heart|"
+    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
     "meme", "Sende ein Meme."
 
 Profil
@@ -73,6 +72,8 @@ Profil
     "dreamcode [Traumcode]", "Speichert deinen ACNH Traum-Code ab. [1]_"
     "achievements", "Sendet eine DM mit deinen Weemo-Achievements."
     "cakeday", "Stelle ein, ob dir am Cakeday von Weemo gratuliert werden darf. [2]_"
+    "marry [@User]", "Stelle einen Heiratsantrag. |ring|"
+    "divorce", "Lass dich scheiden. |broken_heart|"
 
 .. [1] Diese Daten sind öffentlich sichtbar.
 .. [2] Der Cakeday ist der Jahrestag der Erstellung deines Discord-Accounts.
@@ -272,7 +273,6 @@ Weemo
     "help [Befehl]", "Zeigt weitere Informationen zu einem Befehl an."
     "about", "Live-Informationen über mich."
     "setup_", "Ich richte dir den Kram für deinen Server ein."
-    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
     "vote", "Links, um für mich zu voten und mich damit zu unterstützen."
     "invite", "Der Link, um mich einzuladen."
 
