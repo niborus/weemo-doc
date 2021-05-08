@@ -92,3 +92,94 @@ Weemo sagt, ich habe noch einen privaten Sprachkanal, obwohl ich keinen habe.
 Wenn der private Sprachkanal per Hand gelöscht wurde, ist er noch in Weemos Datenbank verfügbar.
 Um ihn aus der Datenbank zu löschen, muss der Befehl ``w#forcedel [@User]`` verwendet werden.
 Erst dann wird Weemo einen neuen Sprachkanal vergeben.
+
+.. _no_reaction:
+
+Weemo reagiert nicht, was soll ich tun?
+=======================================
+
+.. _no_reaction_status:
+
+Weemos Status überprüfen
+------------------------
+
+Suche nach Weemo in der Mitglieder-Liste auf der rechten Seite.
+
+.. image:: images/Weemo_Member.png
+  :alt: Weemos Bild in der Mitgliederliste.
+
+**Falls** der Punkt neben Weemos Profilbild grau ist:
+
+- dann ist Weemo offline. Du musst kurz warten, bis Weemo wieder online ist.
+- Sollte Weemo länger offline sein, kannst du auf dem `Weemo HQ`_ nachschauen,
+  wann Weemo voraussichtlich neu gestartet wird.
+
+**Falls** der Punkt neben Weemos Profilbild grün ist:
+
+- dann ist Weemo online
+- Mache weiter mit :ref:`no_reaction_prefix`
+
+**Falls** Weemo nicht in der Liste ist:
+
+- dann kann Weemo den Kanal nicht sehen.
+- Ändere die Rechte, so dass Weemo den Kanal sehen kann.
+
+  (*Auf größeren Servern kann es passieren, dass Mitglieder, die offline sind, nicht angezeigt werden.*
+  *In diesem Fall musst du Weemos Online-Status über die Mitgliederliste des Servers oder über andere Bots herausfinden.*)
+
+.. _no_reaction_prefix:
+
+Weemos Prefix überprüfen
+------------------------
+
+Sende eine Nachricht mit dem Inhalt "@Weemo", in der du Weemo erwähnst.
+**Außer der Erwähnung darf die Nachricht keinen weiteren Text enthalten.**
+
+**Falls** Weemo antwortet
+
+- wird sie Ihren Präfix verraten.
+- In den Beispielen dieser Dokumentation wird immer der Standardpräfix ``w#`` verwendet.
+  Sollte euer Präfix abweichen, müsst ihr euren Präfix verwenden.
+  Der Standardpräfix wird nicht funktionieren.
+
+  .. image:: images/at_weemo.png
+    :alt: Weemo wird erwähnt und antwortet mit ihrem Präfix.
+
+**Falls** Weemo nicht antwortet
+
+- kann sie entweder den Kanal nicht sehen oder darf nicht in diesen schreiben.
+- Ändere die Rechte, so dass Weemo den Kanal sehen und in ihm schreiben darf (siehe :ref:`no_reaction_permission`).
+
+.. _no_reaction_permission:
+
+Weemos Berechtigungen überprüfen
+--------------------------------
+
+Gehe in die :ref:`Rolleneinstellung<rolleneinstellung>` und überprüfe Weemos Berechtigungen.
+
+- Weemo braucht die Rechte *Kanäle ansehen*, *Nachrichten senden* und *Links einbetten*.
+- Alternativ geht auch das Recht *Administrator*.
+
+In privaten Kanälen muss Weemo zusätzlich dem Kanal hinzugefügt werden:
+
+- Am Computer:
+
+  - Gehe in den Kanaleinstellungen auf *Mitglied oder Rolle hinzufügen* (in der Kategorie *Privater Kanal*) und füge Weemo hinzu.
+
+- Am Handy oder über *Erweiterten Berechtigungen*:
+
+  - Gehe in die Kanaleinstellungen.
+  - Füge Weemos Rolle hinzu, sofern nicht schon getan.
+  - Aktiviere *Kanal zeigen*, *Nachrichten senden* und *Links einbetten*.
+
+.. _no_reaction_failed:
+
+Falls das alles nicht geklappt hat
+----------------------------------
+
+- Tritt dem `Weemo HQ`_ bei und frage bei Support nach.
+- Falls Weemo auf den Befehl ``w#setup check`` reagiert,
+  so sende bitte einen Screenshot von Weemos Antwort auf diesen Befehl mit in den Support.
+
+
+.. _Weemo HQ: https://discord.com/invite/myD9rUF

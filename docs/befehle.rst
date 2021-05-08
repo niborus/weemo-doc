@@ -99,7 +99,7 @@ Geld auf der Bank kann nicht gestohlen und nicht an andere gegeben werden.
     "deposit [Menge |nbsp| | |nbsp| all]", "Zahl Taschengeld auf die Bank ein.", "dep"
     "withdraw [Menge |nbsp| | |nbsp| all]", "Hebt Geld von der Bank ab.", "draw"
     "pay [@User] [Menge]", "Bezahlt den Nutzer mit Taschengeld."
-    "rob [@User]", "Stiehlt jemandem das Taschengeld."
+    "rob_ [@User]", "Stiehlt jemandem das Taschengeld."
     "shop_", "Benutze den Weemo-Shop."
     "job_", "Gehe gegen Bezahlung arbeiten."
     "inv", "Zeigt dein Inventar an."
@@ -160,6 +160,7 @@ Serververwaltung
     "reactionroles_", "Verwaltung der Reaktionsrollen", "rr"
     "prefix [prefix]", "Ändert Weemos Prefix."
     "roleemote add [Name] [@Rolle]", "Fügt ein neues Emote hinzu, welches nur mit einer bestimmten Rolle sichtbar ist."
+    "rob_ toggle", "De-/Aktiviert das Ausrauben von anderen Mitgliedern"
 
 
 Musik
@@ -437,6 +438,18 @@ Die Card ist die Splatoon 2 - Visitenkarte mit allen wesentlichen Informationen.
     "TC", "Turm Kommando", "Tower Control"
     "CB", "Muschelchaos", "Clam Blitz"
     "SALMON", "Salmon Run", "Salmon Run"
+
+rob
+^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "rob [@User]", "Stiehlt jemandem das Taschengeld."
+    "rob toggle", "De-/Aktiviert das Ausrauben von anderen Mitgliedern auf dem Server."
+
 
 shop
 ^^^^
