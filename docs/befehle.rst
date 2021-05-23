@@ -118,7 +118,8 @@ Serverpunte
     "addpoints [Anzahl] [@User]", "Gibt einem User Serverpunkte."
     "removepoints [Anzahl] [@User]", "Entfernt einem User Serverpunkte."
     "resetpoints [@User |nbsp| | |nbsp| all]", "Entfernt alle Serverpunkte (des Users.)"
-    "ignore_", "", "ignorechannel"
+    "ignore_", "Kanäle für die Punktevergabe ignorieren.", "ignorechannel"
+    "persistence_", "Cooldown und Anzahl der Serverpunkte einstellen."
 
 Moderation
 ^^^^^^^^^^
@@ -528,6 +529,18 @@ Alias: ``ignorechannel``
     "ignore add [#Textkanal]", "Fügt den Channel hinzu, in dem keine Serverpunkte gesammelt werden sollen."
     "ignore remove [#Textkanal]", "Entfernt den Channel eben wieder. Serverpunkte werden dann aber wieder gesammelt."
     "ignore list", "Listet alle Channel auf, in denen keine Serverpunkte gesammelt werden sollen."
+
+persistence
+^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "persistence", "Zeigt die aktuellen Einstellungen an."
+    "persistence setpoints [min] [max]", "Konfiguriert die minimale und maximale Anzahl an Serverpunkten, die vergeben werden soll."
+    "persistence cooldown [Zeit in Sekunden]", "Konfiguriert den Cooldown zwischen der Vergabe von Serverpunkten. (Maximal 120 Sekunden)"
 
 .. _joinmsg_leavemsg:
 
