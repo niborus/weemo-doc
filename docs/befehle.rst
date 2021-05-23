@@ -31,7 +31,7 @@ Nützliches
     "randomcolor", "Zeigt eine zufällige Farbe an."
     "ping", "Misst den Ping / die Latenz von Weemo."
     "poll [Frage] <noembed>", "Erstellt eine Umfrage."
-    "`tag`_", "Speichern und ausfrufen von kurzen Texten."
+    "`tag`_", "Speichern und aufrufen von kurzen Texten."
     "random [a] [b]", "Würfelt eine Zahl, die zwischen a und b liegt.
         (Einschließlich a, aber ohne b)"
     "`remindme`_ [Zeitangabe] [Erinnerung]", "Erstellt eine Erinnerung."
