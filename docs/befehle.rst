@@ -112,7 +112,7 @@ Serverpunte
     :align: left
     :header: "Befehl", "Beschreibung", "Aliase"
 
-    "rank <User>", "Zeigt die Rangübersicht an."
+    "rank_ <User>", "Zeigt die Rangübersicht an."
     "leveledroles_", "Richtet Levelrollen ein.", "lr"
     "top <Seite>", "Zeigt die Nutzer\*innen mit den meisten Serverpunkten an."
     "addpoints [Anzahl] [@User]", "Gibt einem User Serverpunkte."
@@ -483,6 +483,18 @@ Für einige Jobs benötigst du ein Item aus dem Shop_.
     "job", "Zeige verfügbare Jobs an."
     "job [Zahl]", "Starte einen Job."
     "job", "Hole dir dein Gehalt ab."
+
+rank
+^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "rank <User>", "Zeige den Rang von dir / eines Users an."
+    "rank bg [Rang-Background-Name]", "Ändere das Hintergrundbild deiner Rang-Karte."
+    "shop_ [Rang-Background-Name]", "Kaufe einen neuen Hintergrund für die Rangkarte. Vor dem Kauf wird eine Vorschau angezeigt."
 
 .. _befehle_leveledroles:
 
