@@ -52,6 +52,7 @@ Fun
     "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
     ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
     "meme", "Sende ein Meme."
+    "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
 
 Profil
 ^^^^^^
@@ -733,6 +734,7 @@ setup
 .. |coin| unicode:: 0x1fa99 .. Münze Emoji
 .. |ring| unicode:: 0x1f48d .. Ehering Emoji
 .. |broken_heart| unicode:: 0x1f494 .. Gebrochenes Herz Emoji
+.. |kiss| unicode:: 0x1f48f .. Zwei Menschen Küssen sich.
 .. |tick| unicode:: 0x2713 .. Check Mark
 .. |nbsp| unicode:: 0xA0 .. Non breaking Space
    :trim:
