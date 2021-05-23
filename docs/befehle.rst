@@ -52,6 +52,7 @@ Fun
     "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
     ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
     "meme", "Sende ein Meme."
+    "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
 
 Profil
 ^^^^^^
@@ -112,13 +113,14 @@ Serverpunte
     :align: left
     :header: "Befehl", "Beschreibung", "Aliase"
 
-    "rank <User>", "Zeigt die Rangübersicht an."
+    "rank_ <User>", "Zeigt die Rangübersicht an."
     "leveledroles_", "Richtet Levelrollen ein.", "lr"
     "top <Seite>", "Zeigt die Nutzer\*innen mit den meisten Serverpunkten an."
     "addpoints [Anzahl] [@User]", "Gibt einem User Serverpunkte."
     "removepoints [Anzahl] [@User]", "Entfernt einem User Serverpunkte."
     "resetpoints [@User |nbsp| | |nbsp| all]", "Entfernt alle Serverpunkte (des Users.)"
-    "ignore_", "", "ignorechannel"
+    "ignore_", "Kanäle für die Punktevergabe ignorieren.", "ignorechannel"
+    "persistence_", "Cooldown und Anzahl der Serverpunkte einstellen."
 
 Moderation
 ^^^^^^^^^^
@@ -483,6 +485,18 @@ Für einige Jobs benötigst du ein Item aus dem Shop_.
     "job [Zahl]", "Starte einen Job."
     "job", "Hole dir dein Gehalt ab."
 
+rank
+^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "rank <User>", "Zeige den Rang von dir / eines Users an."
+    "rank bg [Rang-Background-Name]", "Ändere das Hintergrundbild deiner Rang-Karte."
+    "shop_ [Rang-Background-Name]", "Kaufe einen neuen Hintergrund für die Rangkarte. Vor dem Kauf wird eine Vorschau angezeigt."
+
 .. _befehle_leveledroles:
 
 leveledroles
@@ -528,6 +542,18 @@ Alias: ``ignorechannel``
     "ignore add [#Textkanal]", "Fügt den Channel hinzu, in dem keine Serverpunkte gesammelt werden sollen."
     "ignore remove [#Textkanal]", "Entfernt den Channel eben wieder. Serverpunkte werden dann aber wieder gesammelt."
     "ignore list", "Listet alle Channel auf, in denen keine Serverpunkte gesammelt werden sollen."
+
+persistence
+^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "persistence", "Zeigt die aktuellen Einstellungen an."
+    "persistence setpoints [min] [max]", "Konfiguriert die minimale und maximale Anzahl an Serverpunkten, die vergeben werden soll."
+    "persistence cooldown [Zeit in Sekunden]", "Konfiguriert den Cooldown zwischen der Vergabe von Serverpunkten. (Maximal 120 Sekunden)"
 
 .. _joinmsg_leavemsg:
 
@@ -708,6 +734,7 @@ setup
 .. |coin| unicode:: 0x1fa99 .. Münze Emoji
 .. |ring| unicode:: 0x1f48d .. Ehering Emoji
 .. |broken_heart| unicode:: 0x1f494 .. Gebrochenes Herz Emoji
+.. |kiss| unicode:: 0x1f48f .. Zwei Menschen Küssen sich.
 .. |tick| unicode:: 0x2713 .. Check Mark
 .. |nbsp| unicode:: 0xA0 .. Non breaking Space
    :trim:
