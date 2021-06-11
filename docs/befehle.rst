@@ -5,7 +5,14 @@ Befehle
 Befehle eingeben
 ================
 
-Befehle werden eingegeben, indem man ``w#befehl Argumente`` eingibt.
+Befehle werden eingegeben, indem man ``w#befehl Argumente`` eingibt.  
+Der Prefix wird in der Anleitung jedoch nie mitgeschrieben, um es übersichtlicher zu halten.
+Zudem kann der Prefix auf eurem Server ein anderer als ``w#`` sein.
+
+In dieser Anleitung werden die Argument-Typen in Klammern dargestellt, damit man erkennt, dass es ein Argument ist.  
+Die Klammern dürfen nicht mitgeschrieben werden.
+
+Wenn in der Anleitung also ``emoteurl [Emoji]`` steht, dann muss auf Discord "w#emoteurl |cat|" eingegeben werden.
 
 ``[Argument-Typ]`` ist ein notwendiges Argument,
 ``<Argument-Typ>`` ein optionales.
