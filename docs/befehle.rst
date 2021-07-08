@@ -60,7 +60,7 @@ Fun
     ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
     "meme", "Sende ein Meme."
     "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
-    "`activities`_ [Aktivität]", "Starte eine Aktivität in deinem Sprachkanal"
+    "activities [Aktivität]", "Starte eine Aktivität in deinem Sprachkanal"
 
 Profil
 ^^^^^^
@@ -197,7 +197,7 @@ Musik
 
 .. _befehle_private_sprachkanaele:
 
-Private Sprachkanäle
+Private Kanäle
 ^^^^^^^^^^^^^^^^^^^^
 
 .. csv-table::
