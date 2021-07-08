@@ -115,6 +115,12 @@ Aktuell werden nur folgende Prefixe unterstützt:
 ``++``
 ``//``
 ``?!``
+``€``
+``&``
+``=``
+``,``
+``;``
+``§``
 
 Abschließend
 ============
