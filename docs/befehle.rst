@@ -720,6 +720,7 @@ streamalert
     "streamalert follow [Kanalname]", "Fügt einen Kanal hinzu."
     "streamalert unfollow [Kanalname]", "Entfernt einen Kanal, der hinzugefügt wurde."
     "streamalert list", "Listet alle Kanäle auf, die für diesen Server hinzugefügt wurden."
+    "streamalert role [@Rolle]", "Stellt ein, welche Rolle bei einem neuen Livestream gepingt werden soll."
 
 .. note:: Diese Funktion befindet sich aktuell in der öffentlichen Testphase, Bugs und Fehler könnten jederzeit noch auftreten.
 
