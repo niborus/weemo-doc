@@ -122,6 +122,8 @@ Aktuell werden nur folgende Prefixe unterstützt:
 ``;``
 ``§``
 
+Um den Präfix wieder zurück zu ``w#`` zu ändern, nutzt dazu ``w#prefix reset``.
+
 Abschließend
 ============
 
