@@ -129,11 +129,15 @@ Suche nach Weemo in der Mitglieder-Liste auf der rechten Seite.
 
 .. _no_reaction_prefix:
 
-Weemos Prefix überprüfen
+Weemos Präfix überprüfen
 ------------------------
 
-Sende eine Nachricht mit dem Inhalt "@Weemo", in der du Weemo erwähnst.
+Dafür hast du 2 Möglichkeiten
+
+1. Sende eine Nachricht mit dem Inhalt „@Weemo“, 
+in der du Weemo erwähnst. 
 **Außer der Erwähnung darf die Nachricht keinen weiteren Text enthalten.**
+2. Verwende den Slash-Command ``/prefix``
 
 **Falls** Weemo antwortet
 
