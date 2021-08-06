@@ -5,3 +5,4 @@ Authors
 * Anthony (template contributor) 
 * niborus
 * Inkception
+* MauricePascal
