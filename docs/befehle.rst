@@ -58,7 +58,6 @@ Fun
     "cat", "Sende ein Katzenbild. |cat|"
     "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
     ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
-    "meme", "Sende ein Meme."
     "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
     "activities [Aktivität]", "Starte eine Aktivität in deinem Sprachkanal"
 
@@ -366,49 +365,23 @@ Dein Geburtstag (ohne Jahr) ist öffentlich in deinem Profil sichtbar und wird v
 profile
 ^^^^^^^
 
-Das Profil kann auf zwei Arten dargestellt werden. Als Embed oder als Bild.
-Die Einstellung dafür wird von jedem Nutzer für sein oder ihr Profil selbst getroffen.
-
-Das Embed sieht so aus:
+Das Profil sieht so aus:
 
 .. image:: images/profile_embed_example.png
     :alt: Das Profil in Embedform.
 
-und das Bild so:
-
-.. image:: images/profile_image_example.png
-    :alt: Das Profil in Bildform.
-
 **Befehle**:
-
-E = Funktioniert in Embedform, B = Funktioniert in Bildform.
 
 .. csv-table::
     :widths: auto
     :align: left
-    :header: "Befehl", "Beschreibung", "E", "B"
+    :header: "Befehl", "Beschreibung"
 
-    "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf.", "|tick|", "|tick|"
-    "profile desc [Deine |nbsp| Beschreibung]", "Aktualisiert deine Beschreibung.", "|tick|", "[4]_"
-    "profile bg [Hintergrund]", "Setzt den Hintergrund deines Profils.", "", "|tick|"
-    "profile banner [URL]", "Setzt den Banner deines Profils.", "|tick|", ""
-    "profile social", "Verlinke deine Socialmedia-Accounts.", "|tick|", "|tick|"
-    "profile badge [Badge]", "Zeigt Informationen über das Badge an.", "|tick|", "|tick|"
-    "profile settings", "Verwalte dein Profil.", "|tick|", "|tick|"
-
-.. [4] Wird möglicherweise gekürzt angezeigt.
-
-**Hintergründe**:
-
-Aktuell gibt es die Hintergründe ``default``, ``octo``, ``octo2`` und ``octo3``.
-
-**Einstellungen**:
-
-- Typ der Karte.
-
-    Es gibt ``embed`` für die Embed-Form und ``image`` für die Bildform.
-
-    Syntax: ``w#profile settings type [embed |nbsp| | |nbsp| image]``
+    "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf."
+    "profile desc [Deine |nbsp| Beschreibung]", "Aktualisiert deine Beschreibung."
+    "profile banner [URL]", "Setzt den Banner deines Profils."
+    "profile social", "Verlinke deine Socialmedia-Accounts."
+    "profile badge [Badge]", "Zeigt Informationen über das Badge an."
 
 .. _befehle_card:
 
