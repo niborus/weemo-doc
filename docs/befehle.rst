@@ -433,7 +433,7 @@ rob
     "rob [@User]", "Stiehlt jemandem das Taschengeld."
     "rob toggle", "De-/Aktiviert das Ausrauben von anderen Mitgliedern auf dem Server."
 
-
+.. _shop:
 shop
 ^^^^
 
