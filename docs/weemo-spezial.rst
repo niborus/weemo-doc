@@ -35,6 +35,6 @@ Befehle
     :header: "Befehl", "Beschreibung"
 
     "quiz top", "Zeigt eine globale Top10-Liste mit den meist erratenen Begriffen."
-    "quiz skip", "Überspringe ein Emojiquiz, wenn es zu hart für dich ist. (Hierzu werden Skiptoken benötigt, die du mit ``w#shop skiptoken`` kaufen kannst)"
+    "quiz skip", "Überspringe ein Emojiquiz, wenn es zu hart für dich ist. (Hierzu werden Skiptoken benötigt, die du mit im :ref:`Shop<shop_global_anchor>` kaufen kannst)"
     "quiz repair", "Falls das Emojiquiz trotz richtiger Antwort nicht funktionieren sollte."
     "quiz fl", "Zeigt den ersten Buchstaben des gesuchten Begriffes."
