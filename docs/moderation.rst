@@ -251,7 +251,7 @@ Capslockfilter
 Der Capslockfilter löscht Nachrichten, deren Inhalt zu einem großteil aus Großbuchstaben besteht.
 ``w#automod maxcaps [Prozentwert (Standardmäßig 50%)]`` aktiviert oder deaktiviert den Capslockfilter.
 
-Capslockfilter
+Scamfilter
 ^^^^^^^^^^^^^^
 
 Der Scamfilter löscht Links zu [Phishing](https://de.wikipedia.org/wiki/Phishing "Phishing") Seiten. Klicke **niemals** auf diese Links, dein Discord-Account kann dadurch gestohlen werden!
