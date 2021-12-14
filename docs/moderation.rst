@@ -254,7 +254,7 @@ Der Capslockfilter löscht Nachrichten, deren Inhalt zu einem großteil aus Gro�
 Capslockfilter
 ^^^^^^^^^^^^^^
 
-Der Scamfilter löscht Links zu [Phishing](https://de.wikipedia.org/wiki/Phishing)-Seiten. Klicke **niemals** auf diese Links, dein Discord-Account kann dadurch gestohlen werden!
+Der Scamfilter löscht Links zu [Phishing](https://de.wikipedia.org/wiki/Phishing "Phishing") Seiten. Klicke **niemals** auf diese Links, dein Discord-Account kann dadurch gestohlen werden!
 
 Nachricht
 ^^^^^^^^^
