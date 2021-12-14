@@ -114,7 +114,7 @@ Syntax: ``w#purge [Anzahl]``
 Alias: ``cc``
 
 Löscht die letzten Nachrichten in einem Kanal.
-Die ``Anzahl`` der zu löschenden Nachrichten muss zwischen zwei und 100 liegen.
+Die ``Anzahl`` der zu löschenden Nachrichten muss zwischen 1 und 150 liegen.
 
 Nachrichten, die zu alt sind, können nicht von Weemo gelöscht werden.
 
@@ -152,10 +152,10 @@ Einstellungen
 Mit ``w#modlog setchannel [logchannel]`` kann ein Textkanal als Modlog-Kanal eingestellt werden.
 
 Eine Übersicht, welche Module aktiv sind, kann mit ``w#modlog`` abgefragt werden.
-Durch die eingabe von ``w#modlog``, gefolgt von der Nummer den Moduls in einer zweiten Nachricht,
+Durch die Eingabe von ``w#modlog``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
 kann eine Modul aktiviert/deaktiviert werden.
 
-Es exestieren folgende Module:
+Es existieren folgende Module:
 
 +--------+-----------------------------+------------------------------------------+
 | Nummer | Log für                     | Beinhaltet                               |
@@ -194,62 +194,73 @@ Es exestieren folgende Module:
 +--------+-----------------------------+------------------------------------------+
 |      8 | Mitglieder                  | - Nickname geändert                      |
 +--------+-----------------------------+------------------------------------------+
+|      9 | Einladungen                 | - Einladung erstellt / gelöscht          |
++--------+-----------------------------+------------------------------------------+
 
 .. _automod:
 
 Automod
 =======
 
+Eine Übersicht, welche Module aktiv sind, kann mit ``w#automod`` abgefragt werden.
+Durch die Eingabe von ``w#automod``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
+kann ein Modul aktiviert/deaktiviert werden.
+
+Es existieren folgende Module:
+
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+| Nummer | Log für                     | Funktion                                                                             |
++========+=============================+======================================================================================+
+|      1 | Aktivieren / Deaktivieren   | - De-/aktiviert den AutoMod                                                          |
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+|      2 | Einladungsfilter            | - De-/aktiviert den Einladungsfilter                                                 |
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+|      3 | Wortfilter                  | - De-/aktiviert den Wortfilter                                                       |
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+|      4 | Capslockfilter              | - De-/aktiviert den Capslockfilter                                                   |
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+|      5 | Scamfilter                  | - De-/aktiviert den Scamfilter                                                       |
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+|      6 | Wortliste                   | - Listet alle Wörter auf, die zum AutoMod hinzugefügt wurden.                        |
++--------+-----------------------------+--------------------------------------------------------------------------------------+
+
 .. csv-table::
     :widths: auto
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "automod toggle", "Aktiviert oder deaktiviert den AutoMod."
-    "automod filter", "Zeigt die Wörter/Dateiendungen, die vom AutoMod erfasst werden."
+    "automod ignore [@Rolle]", "Fügt eine Rolle hinzu, die nicht vom AutoMod beachtet werden soll. Entfernt diese, sofern sie hinzugefügt wurde."
+    "automod filter [Wort]", "Fügt ein Wort zum Wortfilter hinzu. Entfernt das Wort, sofern es hinzugefügt wurde."
+    "automod maxcaps [Max. Caps]", "Konfiguriert die Prozentanzahl, die eine Nachricht maximal an Caps beinhalten darf."
+    "automod message [Nachricht]", "Konfiguriert die Nachricht, die gesendet werden soll, wenn ein Mitglied vom AutoMod verwarnt wird."
 
 Wortfilter
 ^^^^^^^^^^
 
-Der Wortfilter schlägt an, falls eines der Wörter in einer Nachricht vorkommt. Es reicht, wenn das Wort als Teil eines
-anderen Wortes vorkommt. So wird das Wort "but" auch in dem Wort "Butter" erkannt.
-
-Mit ``w#automod filter add [Wort]`` und ``w#automod filter remove [Wort]`` können Wörter hinzugefügt und entfernt
-werden.
-
-Dateifilter
-^^^^^^^^^^^
-
-Der Dateifilter löscht Nachrichten mit Anhängen, die eine bestimmte Dateiendung haben.
-Standardmäßig sind einige Dateiendungen die häufig für Schadsoftware verwendet werden (wie ``.exe`` oder ``.sh``)
-bereits eingerichtet.
-
-.. warning:: Weemo hat keinen Virenscaner. Dateien die vom Automod nicht erfasst werden, können trotzdem Schadsoftware enthalten.
-
-Der Dateifilter kann mit ``w#automod filter file`` aktiviert, bzw. deaktiviert werden.
-Mit ``w#automod filter add .[Dateiendung]`` und ``w#automod filter remove .[Dateiendung]`` können Dateiendungen
-hinzugefügt und entfernt werden. (z.B. ``w#automod filter add .exe``)
+Der Wortfilter schlägt an, falls eines der Wörter in einer Nachricht vorkommt. 
+Mit ``w#automod filter [Wort]`` können Wörter hinzugefügt und entfernt werden.
 
 Einladungsfilter
 ^^^^^^^^^^^^^^^^
 
-Der Einladungsfilter erfasst Discord-Einladungslinks. Er kann mit ``w#automod filter invites`` aktiviert oder deaktiviert werden.
+Der Einladungsfilter erfasst Discord-Einladungslinks.
 
 Capslockfilter
 ^^^^^^^^^^^^^^
 
 Der Capslockfilter löscht Nachrichten, deren Inhalt zu einem großteil aus Großbuchstaben besteht.
-Nachrichten mit weniger als zehn Zeichen werden ignoriert um das Filtern von Abkürzungen zu vermeiden.
+``w#automod maxcaps [Prozentwert (Standardmäßig 50%)]`` aktiviert oder deaktiviert den Capslockfilter.
 
-``ẁ#automod filter caps <Wert>`` aktiviert oder deaktiviert den Capslockfilter.
-``<Wert>`` ist optional, damit kannst du den den Prozentwert angeben, ab wann der Capslockfilter durchgreifen soll.
-(Standardmäßig 50%)
+Capslockfilter
+^^^^^^^^^^^^^^
+
+Der Scamfilter löscht Links zu [Phishing](https://de.wikipedia.org/wiki/Phishing)-Seiten. Klicke **niemals** auf diese Links, dein Discord-Account kann dadurch gestohlen werden!
 
 Nachricht
 ^^^^^^^^^
 
 Falls der Automod durchgreift, sendet Weemo eine Nachricht in den entsprechenden Chat. Diese Nachricht kann mit
-``w#automod filter message [Nachricht]`` eingestellt werden.
+``w#automod message [Nachricht]`` eingestellt werden.
 Durch das Einfügen von Platzhaltern in die Nachricht, wird diese beim senden auf die Nutzer personalisiert.
 
 .. csv-table::
