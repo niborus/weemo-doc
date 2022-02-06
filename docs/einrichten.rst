@@ -91,7 +91,7 @@ Quiz
 ----
 
 Weemo hat ein :ref:`Emojiquiz<emojiquiz>`.
-Nutzt ``w#quiz`` um es auf euerm Server einzurichten oder probiert es auf dem Weemo HQ im #emojiquiz einfach mal aus.
+Nutzt ``w#quiz`` um es auf eurem Server einzurichten oder probiert es auf dem Weemo HQ im #emojiquiz einfach mal aus.
 
 Präfix
 ======
