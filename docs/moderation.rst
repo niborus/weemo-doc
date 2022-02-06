@@ -172,10 +172,8 @@ Es existieren folgende Module:
 |      2 | Sprachkanal                 | - Sprachkanal betreten                   |
 |        |                             | - Sprachkanal verlassen                  |
 |        |                             | - Sprachkanal gewechselt                 |
-|        |                             | - Sprachkanal erstellt                   |
-|        |                             | - Sprachkanal gelöscht                   |
 +--------+-----------------------------+------------------------------------------+
-|      3 | Textkanal                   | - Textkanal erstellt                     |
+|      3 | Kanal                       | - Textkanal erstellt                     |
 |        |                             | - Textkanal gelöscht                     |
 |        |                             | - Sprachkanal erstellt                   |
 |        |                             | - Sprachkanal gelöscht                   |
