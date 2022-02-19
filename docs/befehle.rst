@@ -217,14 +217,15 @@ Anime
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "hug [@User]", "Umarme ein Mitglied."
-    "cry", "Weine und lass es alles einfach mal raus."
+    "hug [@User]", "Eine Umarmung tut immer gut."
+    "cry", "Weine und lass es alles einfach mal raus. 😢"
     "cuddle [@User]", "Knuddel ein Mitglied."
     "pat [@User]", "Kraule ein Mitglied."
     "tickle [@User]", "Kitzel ein Mitglied."
-    "stare <@User>", "Beobachte wen. Unheimlich"
-    "kiss [@User]", "Küsse ein Mitglied."
+    "stare <@User>", "Beobachte wen. Unheimlich |eyes|"
+    "kiss [@User]", "Küsse ein Mitglied. |kiss|"
     "slap [@User]", "Schlage ein Mitglied. Autsch."
+    "poke [@User]", "Stups. |point|"
     "neko", "Zeigt dein Neko."
 
 Bildgeneration
@@ -716,6 +717,8 @@ setup
 .. |ring| unicode:: 0x1f48d .. Ehering Emoji
 .. |broken_heart| unicode:: 0x1f494 .. Gebrochenes Herz Emoji
 .. |kiss| unicode:: 0x1f48f .. Zwei Menschen Küssen sich.
+.. |point| unicode:: 0x0001F449 .. Weißer Handrücken und Zeigefinger nach rechts.
+.. |eyes| unicode:: 0x0001F440 .. Augen
 .. |tick| unicode:: 0x2713 .. Check Mark
 .. |nbsp| unicode:: 0xA0 .. Non breaking Space
    :trim:
