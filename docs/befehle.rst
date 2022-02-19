@@ -226,7 +226,6 @@ Anime
     "kiss [@User]", "Küsse ein Mitglied."
     "slap [@User]", "Schlage ein Mitglied. Autsch."
     "neko", "Zeigt dein Neko."
-    "owoify [Nachricht]", "Owoifyt die NYachwicht."
 
 Bildgeneration
 ^^^^^^^^^^^^^^
