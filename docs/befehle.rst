@@ -229,19 +229,7 @@ Anime
 Bildgeneration
 ^^^^^^^^^^^^^^
 
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "simp <@User>", "Erstellt einen Simp-Ausweis."
-    "snow <@User>", "Fügt Schnee über das Profilbild."
-    "invert <@User>", "Invertiert das Profilbild."
-    "blueify <@User>", "Blueifyt das Profilbild."
-    "shoot <@User>", "Erstellt ein Shoot-Meme."
-    "punch [@User]", "Erstellt ein Punch-Meme."
-    "darken <@User>", "Verdunkelt das Profilbild."
-    "smrt <@User>", "Erstellt ein SMRT-Meme."
+.. note:: Die Befehle der Bildgeneration sind wegen eines Fehlers in der API zeitweise deaktiviert.
 
 Spielstatistiken
 ^^^^^^^^^^^^^^^^
