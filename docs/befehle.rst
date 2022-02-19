@@ -30,6 +30,7 @@ Nützliches
 
     "userinfo <User>", "Zeigt Informationen über einen User an."
     "serverinfo", "Zeigt Informationen über den Server an."
+    "servericon", "Betrachte das Serverbild in voller Pracht."
     "roleinfo [Rolle]", "Zeigt Informationen über eine Rolle an."
     "channelinfo [#Kanal]", "Zeigt Informationen über einen Kanal an."
     "emoteurl [Emoji]", "Zeigt die URL eines Custom-Emojis an, mit dem man das Emoji herunterladen kann."
@@ -328,6 +329,7 @@ count
 
     "count setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem gezählt werden soll. Sollte der Textkanal nicht das erste mal eingerichtet werden sondern gewechselt, wird der Zähler auf 1 zurückgesetzt."
     "count removechannel", "Entfernt den Textkanal wieder."
+    "count nofail", "(De)Aktiviert den NoFail-Modus, welcher bei einer falschen Zahl auf 1 zurücksetzt."
 
 
 bday
@@ -616,9 +618,7 @@ private Sprachkanäle steuern.
 
     "1", "Erstellt einen privaten Sprachkanal für dich."
     "2", "Löscht deinen privaten Sprachkanal."
-    "3", "Benennt deinen privaten Sprachkanal um."
-    "4", "Kickt ein Mitglied aus deinem privaten Sprachkanal."
-    "5", "Lädt ein Mitglied zu deinem privaten Sprachkanal ein."
+    "3", "Ruft das Verwaltungsmenü in deinem privaten Kanal auf."
 
 play
 ^^^^
