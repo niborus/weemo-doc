@@ -59,7 +59,6 @@ Fun
     "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
     ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
     "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
-    "activities [Aktivität]", "Starte eine Aktivität in deinem Sprachkanal"
 
 Profil
 ^^^^^^
@@ -77,7 +76,6 @@ Profil
     "bday [Tag] [Monat]", "Trage deinen Geburtstag ein.
         Hinweise in bday_ beachten. [1]_"
     "fc [FC-Code]", "Speichert deinen Nintendo-Switch Freundescode ab. [1]_"
-    "dreamcode [Traumcode]", "Speichert deinen ACNH Traum-Code ab. [1]_"
     "achievements", "Sendet eine DM mit deinen Weemo-Achievements."
     "cakeday", "Stelle ein, ob dir am Cakeday von Weemo gratuliert werden darf. [2]_"
     "marry [@User]", "Stelle einen Heiratsantrag. |ring|"
@@ -236,10 +234,6 @@ Bildgeneration
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "trump [Nachricht]", "Erstellt ein Trump-Meme."
-    "beautiful <@User>", "Erstellt ein Beautiful-Meme."
-    "worthless [Nachricht]", "Erstellt ein Worthless-Meme."
-    "spiderman [Nachricht]", "Erstellt ein Spiderman-Meme."
     "simp <@User>", "Erstellt einen Simp-Ausweis."
     "snow <@User>", "Fügt Schnee über das Profilbild."
     "invert <@User>", "Invertiert das Profilbild."
@@ -380,7 +374,6 @@ Das Profil sieht so aus:
     "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf."
     "profile desc [Deine |nbsp| Beschreibung]", "Aktualisiert deine Beschreibung."
     "profile banner [URL]", "Setzt den Banner deines Profils."
-    "profile social", "Verlinke deine Socialmedia-Accounts."
     "profile badge [Badge]", "Zeigt Informationen über das Badge an."
 
 .. _befehle_card:
