@@ -59,6 +59,7 @@ Fun
     "cat", "Sende ein Katzenbild. |cat|"
     "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
     ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
+    "`guessthenumber`_", "Könnt ihr die richtige Nummer erraten? Informationen über `guessthenumber`_."
     "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
 
 Profil
@@ -330,6 +331,23 @@ count
     "count setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem gezählt werden soll. Sollte der Textkanal nicht das erste mal eingerichtet werden sondern gewechselt, wird der Zähler auf 1 zurückgesetzt."
     "count removechannel", "Entfernt den Textkanal wieder."
     "count nofail", "(De)Aktiviert den NoFail-Modus, welcher bei einer falschen Zahl auf 1 zurücksetzt."
+
+
+guessthenumber
+^^^^^^^^^^^^^^
+
+Spielprinzip:
+Ich suche eine zufällige Zahl aus. Du musst versuchen, diese Zahl zu erraten.
+Gelingt dir das, erhältst du einen Punkt und eine weitere Runde beginnt.
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "guessthenumber top", "Zeigt eine globale Top 10-Bestenliste der User, die die meisten Zahlen erraten haben."
+    "guessthenumber setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem GuessTheNumber gespielt werden soll."
+    "guessthenumber reset", "Entfernt den Textkanal, in dem GuessTheNumber gespielt werden soll."
 
 
 bday
