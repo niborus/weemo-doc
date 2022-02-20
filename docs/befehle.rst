@@ -189,7 +189,6 @@ Musik
     "stick", "Heftet Weemo an den Kanal fest.", ""
     "loop", "Wiedholt das einzelne Lied oder die Warteschlange.", "", "[3]_"
     "lyrics <Lied>", "Sucht die Lyrics des aktuellen oder angegeben Liedes.", ""
-    "bassboost_ [modi]", "Ein wenig mehr Bass gefällig?", "", "[3]_"
     "radio_ [Sender]", "Spielt einen Radiosender ab.", ""
 
 .. [3] Benötigt eine Rolle mit dem Namen "DJ", wenn mehr als 2 Mitglieder im Voicechannel sind.
@@ -205,7 +204,6 @@ Private Kanäle
     :header: "Befehl", "Beschreibung"
 
     "room_", "Ruft das Menü für private Sprachkanäle auf."
-    "forcedel [@User]", "Löscht den Sprachkanal aus Weemos Datenbank. Siehe auch :ref:`FAQ<forcedel>`."
     "setcategory [:ref:`Kategorie-ID<id>`]", "Legt die Kategorie für die Kanäle fest."
 
 
@@ -227,11 +225,6 @@ Anime
     "slap [@User]", "Schlage ein Mitglied. Autsch."
     "poke [@User]", "Stups. |point|"
     "neko", "Zeigt dein Neko."
-
-Bildgeneration
-^^^^^^^^^^^^^^
-
-.. note:: Die Befehle der Bildgeneration sind wegen eines Fehlers in der API zeitweise deaktiviert.
 
 Spielstatistiken
 ^^^^^^^^^^^^^^^^
@@ -266,7 +259,6 @@ Weemo
     "help <Seite>", "Listet alle Befehle auf."
     "help [Befehl]", "Zeigt weitere Informationen zu einem Befehl an."
     "about", "Live-Informationen über mich."
-    "setup_", "Ich richte dir den Kram für deinen Server ein."
     "vote", "Links, um für mich zu voten und mich damit zu unterstützen."
     "invite", "Der Link, um mich einzuladen."
 
