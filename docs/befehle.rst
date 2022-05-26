@@ -44,25 +44,8 @@ Nützliches
         (Einschließlich a, aber ohne b)"
     "`remindme`_ [Zeitangabe] [Erinnerung]", "Erstellt eine Erinnerung."
 
-Fun
-^^^
 
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "cookie <eat>", "Kekse |cookie|"
-    "coinflip", "Wirft eine Münze."
-    "rps", "Spiele *Schere, Stein, Papier*"
-    "dog", "Sende ein Hundebild. |dog|"
-    "cat", "Sende ein Katzenbild. |cat|"
-    "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
-    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
-    "`guessthenumber`_", "Könnt ihr die richtige Nummer erraten? Informationen über `guessthenumber`_."
-    "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
-
-Profil
+Profil | Personalisierung
 ^^^^^^
 
 .. warning:: Daten, die über diese Befehle angegeben werden, sind öffentlich sichtbar.
@@ -112,7 +95,7 @@ Geld auf der Bank kann nicht gestohlen und nicht an andere gegeben werden.
     "job_", "Gehe gegen Bezahlung arbeiten."
     "inv", "Zeigt dein Inventar an."
 
-Serverpunte
+Serverpunkte
 ^^^^^^^^^^^
 
 .. csv-table::
@@ -168,9 +151,102 @@ Serververwaltung
     ":ref:`automod<automod>`", "Verwaltung des Automod."
     "reactionroles_", "Verwaltung der Reaktionsrollen", "rr"
     "prefix [prefix]", "Ändert Weemos Prefix."
-    "roleemote add [Name] [@Rolle]", "Fügt ein neues Emote hinzu, welches nur mit einer bestimmten Rolle sichtbar ist."
     "rob_ toggle", "De-/Aktiviert das Ausrauben von anderen Mitgliedern"
 
+Roleplay | Anime
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "hug [@User]", "Eine Umarmung tut immer gut."
+    "cry", "Weine und lass es alles einfach mal raus. 😢"
+    "cuddle [@User]", "Knuddel ein Mitglied."
+    "pat [@User]", "Kraule ein Mitglied."
+    "tickle [@User]", "Kitzel ein Mitglied."
+    "stare <@User>", "Beobachte wen. Unheimlich |eyes|"
+    "kiss [@User]", "Küsse ein Mitglied. |kiss|"
+    "slap [@User]", "Schlage ein Mitglied. Autsch."
+    "poke [@User]", "Stups. |point|"
+    "kill [@User]", "Töte ein Mitglied."
+    "pinch [@User]", "Kneife einem Mitglied ins Gesicht."
+    "wave <@User>", "Winke ein Mitglied an oder einfach in die Runde."
+    "punch [@User]", "Schlage ein Mitglied ins Gesicht."
+    "bite [@User]", "Beiße ein Mitglied."
+    "neko", "Zeigt ein Neko."
+
+Splatoon
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "card", "Ruft deine Splatoon 2 Karte auf."
+    "splatnet", "Ruft die aktuelle Splatoon 2 Map-Rotation auf"
+
+Spiele
+^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
+    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
+    "coinflip", "Wirft eine Münze."
+    "rps", "Spiele *Schere, Stein, Papier*"
+    "`guessthenumber`_", "Könnt ihr die richtige Nummer erraten? Informationen über `guessthenumber`_."
+
+Fun
+^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "cookie <eat>", "Kekse |cookie|"
+    "dog", "Sende ein Hundebild. |dog|"
+    "cat", "Sende ein Katzenbild. |cat|"
+    "ship [@User1] [@User2]", "Shippe zwei Mitglieder. |kiss|"
+
+.. _befehle_private_sprachkanaele:
+
+Private Kanäle
+^^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "room_", "Ruft das Menü für private Sprachkanäle auf."
+    "setcategory [:ref:`Kategorie-ID<id>`]", "Legt die Kategorie für die Kanäle fest."
+
+Spielstatistiken
+^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "osustats [OSU-Name] <--modusname>", "Zeigt Statistiken über das OSU-Profil."
+
+Streamankündigungen
+^^^^^^^^^^^^^^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "streamalert_", "Verwaltet Streamankündigungen."
 
 Musik
 ^^^^^
@@ -191,62 +267,7 @@ Musik
     "lyrics <Lied>", "Sucht die Lyrics des aktuellen oder angegeben Liedes.", ""
     "radio_ [Sender]", "Spielt einen Radiosender ab.", ""
 
-.. [3] Benötigt eine Rolle mit dem Namen "DJ", wenn mehr als 2 Mitglieder im Voicechannel sind.
-
-.. _befehle_private_sprachkanaele:
-
-Private Kanäle
-^^^^^^^^^^^^^^^^^^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "room_", "Ruft das Menü für private Sprachkanäle auf."
-    "setcategory [:ref:`Kategorie-ID<id>`]", "Legt die Kategorie für die Kanäle fest."
-
-
-Anime
-^^^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "hug [@User]", "Eine Umarmung tut immer gut."
-    "cry", "Weine und lass es alles einfach mal raus. 😢"
-    "cuddle [@User]", "Knuddel ein Mitglied."
-    "pat [@User]", "Kraule ein Mitglied."
-    "tickle [@User]", "Kitzel ein Mitglied."
-    "stare <@User>", "Beobachte wen. Unheimlich |eyes|"
-    "kiss [@User]", "Küsse ein Mitglied. |kiss|"
-    "slap [@User]", "Schlage ein Mitglied. Autsch."
-    "poke [@User]", "Stups. |point|"
-    "neko", "Zeigt dein Neko."
-
-Spielstatistiken
-^^^^^^^^^^^^^^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "osustats [OSU-Name] <--modusname>", "Zeigt Statistiken über das OSU-Profil."
-
-
-Streamankündigungen
-^^^^^^^^^^^^^^^^^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "streamalert_", "Verwaltet Streamankündigungen."
-
+.. [3] Optional kann eine DJ-Rolle eingerichtet werden, um diesen Befehl bei mehr als 2 Mitgliedern im Sprachkanal einzuschränken.
 
 Weemo
 ^^^^^
@@ -256,7 +277,6 @@ Weemo
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "help <Seite>", "Listet alle Befehle auf."
     "help [Befehl]", "Zeigt weitere Informationen zu einem Befehl an."
     "about", "Live-Informationen über mich."
     "vote", "Links, um für mich zu voten und mich damit zu unterstützen."
@@ -371,10 +391,9 @@ Das Profil sieht so aus:
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "profile [@User]", "Ruft das Profil des gepingtem Mitglied auf."
-    "profile desc [Deine |nbsp| Beschreibung]", "Aktualisiert deine Beschreibung."
+    "profile [@User]", "Ruft das Profil des erwähnten Mitglied auf."
+    "profile bio [Deine |nbsp| Beschreibung]", "Aktualisiert deine Biografie."
     "profile banner [URL]", "Setzt den Banner deines Profils."
-    "profile badge [Badge]", "Zeigt Informationen über das Badge an."
 
 .. _befehle_card:
 
@@ -436,11 +455,8 @@ shop
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "shop <Seitenzahl>", "Zeigt die Auswahl im Shop an.",
     "shop [Item]", "Kaufe ein Item im Shop.",
     "shop cookie [Anzahl]", "Kaufe Kekse."
-    "shop show [Item]", "Zeige eine Vorschau für den Hintergrund."
-    "shop settings pay [CP |nbsp| | |nbsp| Bank]", "Stelle ein, ob du mit Taschengeld (CP) oder vom Bankkonto bezahlen möchtest."
 
 job
 ^^^
@@ -545,11 +561,7 @@ Alle Befehle, bei denen *LM* markiert ist, funktionieren auch für ``leavemsg``.
     :align: left
     :header: "Befehl", "Beschreibung", "LM"
 
-    "joinmsg setchannel [Kanal]", "Stellt den Channel ein, in dem die Nachricht eingestellt werden soll.", "|tick|"
-    "joinmsg setmessage [Nachricht]", "Stellt die Nachricht ein, die dann verwendet werden soll.", "|tick|"
-    "joinmsg reset", "Entfernt die Nachricht, die eingestellt wurde.", "|tick|"
-    "joinmsg type [dm|channel]", "Stellt ein, ob die Nachricht in einem Channel oder per DM des Users reingeschickt werden soll.", ""
-    "joinmsg embed", "Stellt ein, ob die Nachricht in einer Embed oder ohne Embed reingeschickt wird.", "|tick|"
+    "joinmsg", "Verwaltet die Begrüßungsnachrichten für diesen Server.", "|tick|"
 
 .. _befehle_joinrole:
 
@@ -657,12 +669,6 @@ Verwaltet die Warteschlange für Musiktitel.
     "queue clear", "Leert die Warteschlange."
     "queue remove [ID]", "Entfernt ein Lied aus der Warteschlange."
 
-bassboost
-^^^^^^^^^
-
-Modi für den Bassboost sind (in aufsteigender Reihenfolge):
-*off*, *low*, *medium*, *high*, *wtf*
-
 radio
 ^^^^^
 
@@ -684,21 +690,7 @@ streamalert
     "streamalert setchannel [#Kanal]", "Setzt den Textkanal, in dem **alle** Streamankündigungen angekündigt werden sollen."
     "streamalert follow [Kanalname]", "Fügt einen Kanal hinzu."
     "streamalert unfollow [Kanalname]", "Entfernt einen Kanal, der hinzugefügt wurde."
-    "streamalert list", "Listet alle Kanäle auf, die für diesen Server hinzugefügt wurden."
     "streamalert role [@Rolle]", "Stellt ein, welche Rolle bei einem neuen Livestream gepingt werden soll."
-
-.. note:: Diese Funktion befindet sich aktuell in der öffentlichen Testphase, Bugs und Fehler könnten jederzeit noch auftreten.
-
-setup
-^^^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "setup emojiquiz", "Ich erstelle das :ref:`Emojiquiz<emojiquiz>` und stelle auch hier die Berechtigungen für den Channel dementsprechend ein."
-    "setup check", "Ich gehe alle Berechtigungen durch und überprüfe, ob ich die habe. *(für erfahrende Nutzer)*."
 
 
 
