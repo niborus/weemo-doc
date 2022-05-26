@@ -44,19 +44,6 @@ Nützliches
         (Einschließlich a, aber ohne b)"
     "`remindme`_ [Zeitangabe] [Erinnerung]", "Erstellt eine Erinnerung."
 
-Spiele
-^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
-    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
-    "coinflip", "Wirft eine Münze."
-    "rps", "Spiele *Schere, Stein, Papier*"
-    "`guessthenumber`_", "Könnt ihr die richtige Nummer erraten? Informationen über `guessthenumber`_."
 
 Profil | Personalisierung
 ^^^^^^
@@ -189,6 +176,31 @@ Roleplay | Anime
     "punch [@User]", "Schlage ein Mitglied ins Gesicht."
     "bite [@User]", "Beiße ein Mitglied."
     "neko", "Zeigt ein Neko."
+
+Splatoon
+^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "card", "Ruft deine Splatoon 2 Karte auf."
+    "splatnet", "Ruft die aktuelle Splatoon 2 Map-Rotation auf"
+
+Spiele
+^^^^^^
+
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "`count`_", "Konfiguriert den Channel, in dem gezählt werden soll."
+    ":ref:`quiz<emojiquiz_befehle>`", "Informationen über das :ref:`Emojiquiz<emojiquiz>`."
+    "coinflip", "Wirft eine Münze."
+    "rps", "Spiele *Schere, Stein, Papier*"
+    "`guessthenumber`_", "Könnt ihr die richtige Nummer erraten? Informationen über `guessthenumber`_."
 
 Fun
 ^^^
