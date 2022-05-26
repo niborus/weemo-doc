@@ -553,11 +553,7 @@ Alle Befehle, bei denen *LM* markiert ist, funktionieren auch für ``leavemsg``.
     :align: left
     :header: "Befehl", "Beschreibung", "LM"
 
-    "joinmsg setchannel [Kanal]", "Stellt den Channel ein, in dem die Nachricht eingestellt werden soll.", "|tick|"
-    "joinmsg setmessage [Nachricht]", "Stellt die Nachricht ein, die dann verwendet werden soll.", "|tick|"
-    "joinmsg reset", "Entfernt die Nachricht, die eingestellt wurde.", "|tick|"
-    "joinmsg type [dm|channel]", "Stellt ein, ob die Nachricht in einem Channel oder per DM des Users reingeschickt werden soll.", ""
-    "joinmsg embed", "Stellt ein, ob die Nachricht in einer Embed oder ohne Embed reingeschickt wird.", "|tick|"
+    "joinmsg", "Verwaltet die Begrüßungsnachrichten für diesen Server.", "|tick|"
 
 .. _befehle_joinrole:
 
@@ -665,12 +661,6 @@ Verwaltet die Warteschlange für Musiktitel.
     "queue clear", "Leert die Warteschlange."
     "queue remove [ID]", "Entfernt ein Lied aus der Warteschlange."
 
-bassboost
-^^^^^^^^^
-
-Modi für den Bassboost sind (in aufsteigender Reihenfolge):
-*off*, *low*, *medium*, *high*, *wtf*
-
 radio
 ^^^^^
 
@@ -692,21 +682,7 @@ streamalert
     "streamalert setchannel [#Kanal]", "Setzt den Textkanal, in dem **alle** Streamankündigungen angekündigt werden sollen."
     "streamalert follow [Kanalname]", "Fügt einen Kanal hinzu."
     "streamalert unfollow [Kanalname]", "Entfernt einen Kanal, der hinzugefügt wurde."
-    "streamalert list", "Listet alle Kanäle auf, die für diesen Server hinzugefügt wurden."
     "streamalert role [@Rolle]", "Stellt ein, welche Rolle bei einem neuen Livestream gepingt werden soll."
-
-.. note:: Diese Funktion befindet sich aktuell in der öffentlichen Testphase, Bugs und Fehler könnten jederzeit noch auftreten.
-
-setup
-^^^^^
-
-.. csv-table::
-    :widths: auto
-    :align: left
-    :header: "Befehl", "Beschreibung"
-
-    "setup emojiquiz", "Ich erstelle das :ref:`Emojiquiz<emojiquiz>` und stelle auch hier die Berechtigungen für den Channel dementsprechend ein."
-    "setup check", "Ich gehe alle Berechtigungen durch und überprüfe, ob ich die habe. *(für erfahrende Nutzer)*."
 
 
 
