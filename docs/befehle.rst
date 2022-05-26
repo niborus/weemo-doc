@@ -443,11 +443,8 @@ shop
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "shop <Seitenzahl>", "Zeigt die Auswahl im Shop an.",
     "shop [Item]", "Kaufe ein Item im Shop.",
     "shop cookie [Anzahl]", "Kaufe Kekse."
-    "shop show [Item]", "Zeige eine Vorschau für den Hintergrund."
-    "shop settings pay [CP |nbsp| | |nbsp| Bank]", "Stelle ein, ob du mit Taschengeld (CP) oder vom Bankkonto bezahlen möchtest."
 
 job
 ^^^
