@@ -265,7 +265,6 @@ Weemo
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "help <Seite>", "Listet alle Befehle auf."
     "help [Befehl]", "Zeigt weitere Informationen zu einem Befehl an."
     "about", "Live-Informationen über mich."
     "vote", "Links, um für mich zu voten und mich damit zu unterstützen."
