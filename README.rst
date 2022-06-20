@@ -6,10 +6,9 @@ Weemo ist ein deutschsprachiger Discord-Bot.
 
 Links
 -----
-- Supportserver für weitere Fragen: https://discord.gg/myD9rUF
+- Discord-Server: https://discord.gg/myD9rUF
 - Patreon (rein auf freiwilliger Basis, Weemo's Funktionen sind und werden für immer kostenlos bleiben): https://weemobot.de/patreon
 - Lade Weemo auf deinen Server ein: https://weemobot.de/invite
-- Wartungsarbeiten, Downtimes, etc. hier: https://weemobot.de/status
 - Dokumentation: https://weemo.readthedocs.io/de/latest/
 
 Ausgestattet mit
