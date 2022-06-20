@@ -24,6 +24,10 @@ Es startet nicht, was soll ich tun?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Gib ``w#quiz repair`` ein, dann sollte das Emojiquiz starten. Bitte überprüfe auch, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** hat und ob der Textkanalname nur aus latenischen Buchstaben besteht. Emotes können natürlich verwendet werden, aber der Textkanal **muss** das Wort emojiquiz beinhalten.
 
+Was ist die Lösung zu XXX?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Unser Team verrät keine Lösungen aus dem Emojiquiz. Wenn dir ein Wort nicht einfällt, kannst du das aktuelle Emojiquiz mit dem Button `Überspringen` überspringen.
+
 .. _emojiquiz_befehle:
 
 Befehle
