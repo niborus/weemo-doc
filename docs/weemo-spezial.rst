@@ -26,7 +26,7 @@ Es startet nicht, was soll ich tun?
 
 Was ist die Lösung zu XXX?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Unser Team verrät keine Lösungen aus dem Emojiquiz. Wenn dir ein Wort nicht einfällt, kannst du das aktuelle Emojiquiz mit dem Button `Überspringen` überspringen.
+- Unser Team verrät keine Lösungen aus dem Emojiquiz. Wenn dir ein Wort nicht einfällt, kannst du das aktuelle Emojiquiz mit dem Button ``Überspringen`` überspringen.
 
 .. _emojiquiz_befehle:
 
