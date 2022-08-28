@@ -24,9 +24,13 @@ Es startet nicht, was soll ich tun?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Gib ``w#quiz repair`` ein, dann sollte das Emojiquiz starten. Bitte überprüfe auch, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** hat und ob der Textkanalname nur aus latenischen Buchstaben besteht. Emotes können natürlich verwendet werden, aber der Textkanal **muss** das Wort emojiquiz beinhalten.
 
-Was ist die Lösung zu XXX?
+Was ist die Lösung zu diesem Emojiquiz?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Unser Team verrät keine Lösungen aus dem Emojiquiz. Wenn dir ein Wort nicht einfällt, kannst du das aktuelle Emojiquiz mit dem Button ``Überspringen`` überspringen.
+
+Weemo reagiert auf keinen Befehl?
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+- Weemo reagiert seit [diesem Update](https://discord.com/channels/468520211687931914/468520212128595979/1012887459257929768) nicht mehr in Emojiquiz-Kanälen auf Befehle. Bitte führe deinen gewünschten Befehl in einem anderen Kanal aus.
 
 .. _emojiquiz_befehle:
 
@@ -38,5 +42,5 @@ Befehle
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "quiz top", "Zeigt eine globale Top10-Liste mit den meist erratenen Begriffen."
+    "quiz top", "Zeigt eine globale Top10-Liste mit den meisten Punkten aller User an."
     "quiz repair", "Falls das Emojiquiz trotz richtiger Antwort nicht funktionieren sollte."
