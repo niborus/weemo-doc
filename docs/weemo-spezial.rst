@@ -30,7 +30,7 @@ Was ist die Lösung zu diesem Emojiquiz?
 
 Weemo reagiert auf keinen Befehl?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Weemo reagiert seit [diesem Update](https://discord.com/channels/468520211687931914/468520212128595979/1012887459257929768) nicht mehr in Emojiquiz-Kanälen auf Befehle. Bitte führe deinen gewünschten Befehl in einem anderen Kanal aus.
+- Weemo reagiert nicht länger in Emojiquiz-Kanälen auf Befehle. Bitte führe deinen gewünschten Befehl in einem anderen Kanal aus.
 
 .. _emojiquiz_befehle:
 
