@@ -8,16 +8,18 @@ Willkommen bei der Dokumentation für Weemo!
 
 Weemo • Ein frecher, aber dennoch sehr nützlicher Discord Bot. Frisch aus der Deepsea Metro.
 
-Ausgestattet mit
+Features
 ----------------
-- Nützlichen Befehlen wie `userinfo`, `serverinfo`, `roleinfo` etc.
-- einem AutoMod, Modlog & vielen Moderationsbefehlen
-- Levelrollen & Serverpunkten
-- Reactionroles
-- Privaten Sprachkanälen
-- Musik
+- Anpassbarem Prefix
+- Informativen Befehlen
+- Moderativen Befehlen
+- Serverpunkten & Bestenlisten
+- Reaction Roles
+- Streamankündigungen
+- Interaktions-Befehlen
+- Minispielen
 - Keksen 🍪
-- ...und vielem mehr
+- ...und noch vielem mehr!
 
 Inhalte
 -------
