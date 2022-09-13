@@ -22,7 +22,7 @@ Wie wird es eingerichtet?
 
 Es startet nicht, was soll ich tun?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Gib ``w#quiz repair`` ein, dann sollte das Emojiquiz starten. Bitte überprüfe auch, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** hat und ob der Textkanalname nur aus latenischen Buchstaben besteht. Emotes können natürlich verwendet werden, aber der Textkanal **muss** das Wort emojiquiz beinhalten.
+- Gib ``w#quiz repair`` ein, dann sollte das Emojiquiz starten. Bitte überprüfe auch, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** und **Reaktionen hinzufügen** hat und ob der Textkanalname nur aus latenischen Buchstaben besteht. Emotes können natürlich verwendet werden, aber der Textkanal **muss** das Wort emojiquiz beinhalten.
 
 Was ist die Lösung zu diesem Emojiquiz?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
