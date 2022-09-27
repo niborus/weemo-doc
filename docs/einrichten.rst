@@ -57,7 +57,7 @@ Die Anleitung zum einrichten ist unter ``/help card`` und im Menü :ref:`befehle
 Nintendo-Switch-Freundescode [Serverübergreifend]
 -------------------------------------------------
 
-Euren Freudescode kann man mit ``w#fc`` speichern und auch wieder abrufen.
+Euren Freudescode kann man mit ``/fc`` speichern und auch wieder abrufen.
 
 Nützliches
 ==========
