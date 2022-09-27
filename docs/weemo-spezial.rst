@@ -1,8 +1,5 @@
-.. warning::
-    Die Dokumentation könnte an einigen Stellen nicht mehr aktuell sein, da Weemo auf Slash-Commands migriert hat. Bitte habt ein wenig Geduld, während die Dokumentation aktualisiert wird.
-
 *************
-Weemo spezial
+Weemo Spezial
 *************
 
 .. _emojiquiz:
