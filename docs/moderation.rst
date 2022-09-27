@@ -1,6 +1,3 @@
-.. warning::
-    Die Dokumentation könnte an einigen Stellen nicht mehr aktuell sein, da Weemo auf Slash-Commands migriert hat. Bitte habt ein wenig Geduld, während die Dokumentation aktualisiert wird.
-
 .. _moderation:
 
 ==========
@@ -12,7 +9,7 @@ Moderation
 Befehle
 =======
 
-Folgende Befehle sind  für Moderatoren.
+Folgende Befehle sind für Moderator\*innen.
 Um diese auszuführen, benötigen Mitglieder entweder die Moderator\*innen-Rolle oder
 müssen über ein entsprechendes Recht bei Discord verfügen.
 
@@ -21,7 +18,7 @@ müssen über ein entsprechendes Recht bei Discord verfügen.
 ban
 ^^^
 
-Syntax: ``w#ban [@Mitglied] [Grund]``
+Syntax: ``/ban [@Mitglied] <Grund>``
 
 Bannt ein Mitglied dauerhaft vom Server.
 Sofern Weemo dem Mitglied eine DM schicken kann, wird der Grund für den Ban an das Mitglied gesendet.
@@ -33,7 +30,7 @@ Dies löscht alle neueren Nachrichten des Mitglieds.
 idban
 ^^^^^
 
-Syntax: ``w#idban [ID] [Grund]``
+Syntax: ``/idban [ID] <Grund>``
 
 Bannt eine Nutzerin / einen Nutzer dauerhaft vom Server.
 Die Person kann nach einem Ban dem Server nicht beitreten.
@@ -46,7 +43,7 @@ Dazu wird die :ref:`ID<id>` der Person benötigt.
 tempban
 ^^^^^^^
 
-Syntax: ``w#tempban [@Mitglied] [Dauer] [Grund]``
+Syntax: ``/tempban [@Mitglied] [Dauer] <Grund>``
 
 Bannt eine Nutzerin / einen Nutzer für die angegebene Zeit vom Server.
 Nach Ablauf der Zeit, wird das Mitglied entbannt.
@@ -57,7 +54,7 @@ Dies löscht alle neueren Nachrichten des Mitglieds.
 unban
 ^^^^^
 
-Syntax: ``w#unban [ID]``
+Syntax: ``/unban [ID]``
 
 Entbannt eine gebannte Person.
 Dazu wird die :ref:`ID<id>` der Person benötigt.
@@ -67,10 +64,10 @@ Dazu wird die :ref:`ID<id>` der Person benötigt.
 mute
 ^^^^
 
-Syntax: ``w#mute [@Mitglied] [Dauer] <Grund>``
+Syntax: ``/mute [@Mitglied] [Dauer] <Grund>``
 
-Gibt einem Mitglied für die angegebene Dauer die Mute-Rolle und
-verweigert dem Mitglied auf diese Weise das schreiben und sprechen.
+Setzt ein Mitglied für die angegebene Zeit in den Timeout.
+In dieser Zeit kann das Mitglied keine Nachrichten schreiben oder Sprachkanäle betreten.
 
 
 .. _moderation_unmute:
@@ -78,18 +75,16 @@ verweigert dem Mitglied auf diese Weise das schreiben und sprechen.
 unmute
 ^^^^^^
 
-Syntax: ``w#unmute [@Mitglied]``
+Syntax: ``/unmute [@Mitglied]``
 
-Entfernt die Mute-Rolle vom Mitglied.
+Hebt den Timeout für das Mitglied auf.
 
 .. _moderation_kick:
 
 kick
 ^^^^
 
-Syntax: ``w#kick [@Mitglied] [Grund]``
-
-Alias: ``raus``
+Syntax: ``/kick [@Mitglied] <Grund>``
 
 Entfernt ein Mitglied vom Server.
 Sofern Weemo dem Mitglied eine DM schicken kann, wird der Grund für den Kick an das Mitglied gesendet.
@@ -101,7 +96,7 @@ Dies löscht keine Nachrichten des Mitglieds.
 warn
 ^^^^
 
-Syntax: ``w#warn [@Mitglied] [Grund]``
+Syntax: ``/warn [@Mitglied] [Grund]``
 
 Verwarnt ein Mitglied.
 Sofern Weemo dem Mitglied eine DM schicken kann, wird der Grund für die Verwarnung an das Mitglied gesendet.
@@ -112,21 +107,17 @@ Verwarnungen werden gespeichert und können mit punishments_ von Moderator\*inne
 purge
 ^^^^^
 
-Syntax: ``w#purge [Anzahl]``
-
-Alias: ``cc``
+Syntax: ``/purge [Anzahl]``
 
 Löscht die letzten Nachrichten in einem Kanal.
 Die ``Anzahl`` der zu löschenden Nachrichten muss zwischen 1 und 150 liegen.
-
-Nachrichten, die zu alt sind, können nicht von Weemo gelöscht werden.
 
 .. _moderation_punishments:
 
 punishments
 ^^^^^^^^^^^
 
-Syntax: ``w#punishments <Mitglied>``
+Syntax: ``/punishments member <Mitglied>``
 
 Zeigt die Verwarnungen eines Mitglieds an.
 
@@ -135,6 +126,10 @@ Syntax: ``w#punishments id <ID>``
 
 Zeigt die Verwarnung mit der angegebenen ID an.
 
+
+Syntax: ``w#punishments delete <ID>``
+
+Löscht die Verwarnung mit der angegebenen ID.
 
 .. _modlog:
 
@@ -152,10 +147,10 @@ Wir empfehlen, den Modlog zu einem privatem Kanal zu machen, auf den nur Moderat
 Einstellungen
 ^^^^^^^^^^^^^
 
-Mit ``w#modlog setchannel [logchannel]`` kann ein Textkanal als Modlog-Kanal eingestellt werden.
+Mit ``/modlog setchannel [logchannel]`` kann ein Textkanal als Modlog-Kanal eingestellt werden.
 
-Eine Übersicht, welche Module aktiv sind, kann mit ``w#modlog`` abgefragt werden.
-Durch die Eingabe von ``w#modlog``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
+Eine Übersicht, welche Module aktiv sind, kann mit ``/modlo g settings`` abgefragt werden.
+Durch die Eingabe von ``/modlog settings``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
 kann eine Modul aktiviert/deaktiviert werden.
 
 Es existieren folgende Module:
@@ -163,14 +158,10 @@ Es existieren folgende Module:
 +--------+-----------------------------+------------------------------------------+
 | Nummer | Log für                     | Beinhaltet                               |
 +========+=============================+==========================================+
-|      1 | Gilden                      | - Serverregion aktualisiert              |
-|        |                             | - Serverinhaber\*in gewechselt           |
-|        |                             | - Servername geändert                    |
-|        |                             | - Servericon geändert                    |
-|        |                             | - Verifizierungsstufe verändert          |
-|        |                             | - Mitglied gebannt                       |
+|      1 | Allgemein                   | - Mitglied gebannt                       |
 |        |                             | - Mitglied entbannt                      |
-|        |                             | - moderativer Befehl ausgeführt          |
+|        |                             | - Mitglied stummgeschalten               |
+|        |                             | - Moderativer Befehl ausgeführt          |
 +--------+-----------------------------+------------------------------------------+
 |      2 | Sprachkanal                 | - Sprachkanal betreten                   |
 |        |                             | - Sprachkanal verlassen                  |
@@ -203,8 +194,8 @@ Es existieren folgende Module:
 Automod
 =======
 
-Eine Übersicht, welche Module aktiv sind, kann mit ``w#automod`` abgefragt werden.
-Durch die Eingabe von ``w#automod``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
+Eine Übersicht, welche Module aktiv sind, kann mit ``/automod settings`` abgefragt werden.
+Durch die Eingabe von ``/automod``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
 kann ein Modul aktiviert/deaktiviert werden.
 
 Es existieren folgende Module:
@@ -227,7 +218,7 @@ Es existieren folgende Module:
 
 .. csv-table::
     :widths: auto
-    :align: left
+    :align: left/autm
     :header: "Befehl", "Beschreibung"
 
     "automod ignore [@Rolle]", "Fügt eine Rolle hinzu, die nicht vom AutoMod beachtet werden soll. Entfernt diese, sofern sie hinzugefügt wurde."
@@ -239,7 +230,7 @@ Wortfilter
 ^^^^^^^^^^
 
 Der Wortfilter schlägt an, falls eines der Wörter in einer Nachricht vorkommt. 
-Mit ``w#automod filter [Wort]`` können Wörter hinzugefügt und entfernt werden.
+Mit ``/automod filter [Wort]`` können Wörter hinzugefügt und entfernt werden.
 
 Einladungsfilter
 ^^^^^^^^^^^^^^^^
@@ -250,7 +241,7 @@ Capslockfilter
 ^^^^^^^^^^^^^^
 
 Der Capslockfilter löscht Nachrichten, deren Inhalt zu einem großteil aus Großbuchstaben besteht.
-``w#automod maxcaps [Prozentwert (Standardmäßig 50%)]`` aktiviert oder deaktiviert den Capslockfilter.
+``/automod maxcaps [Prozentwert (Standardmäßig 50%)]`` aktiviert oder deaktiviert den Capslockfilter.
 
 Scamfilter
 ^^^^^^^^^^^^^^
@@ -262,7 +253,7 @@ Nachricht
 ^^^^^^^^^
 
 Falls der Automod durchgreift, sendet Weemo eine Nachricht in den entsprechenden Chat. Diese Nachricht kann mit
-``w#automod message [Nachricht]`` eingestellt werden.
+``/automod message [Nachricht]`` eingestellt werden.
 Durch das Einfügen von Platzhaltern in die Nachricht, wird diese beim senden auf die Nutzer personalisiert.
 
 .. csv-table::
