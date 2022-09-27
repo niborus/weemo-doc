@@ -195,7 +195,7 @@ Automod
 =======
 
 Eine Übersicht, welche Module aktiv sind, kann mit ``/automod settings`` abgefragt werden.
-Durch die Eingabe von ``/automod``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
+Durch die Eingabe von ``/automod settings``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
 kann ein Modul aktiviert/deaktiviert werden.
 
 Es existieren folgende Module:
