@@ -149,7 +149,7 @@ Einstellungen
 
 Mit ``/modlog setchannel [logchannel]`` kann ein Textkanal als Modlog-Kanal eingestellt werden.
 
-Eine Übersicht, welche Module aktiv sind, kann mit ``/modlo g settings`` abgefragt werden.
+Eine Übersicht, welche Module aktiv sind, kann mit ``/modlog settings`` abgefragt werden.
 Durch die Eingabe von ``/modlog settings``, gefolgt von der Nummer den Moduls durch das Klicken eines Knopfes,
 kann eine Modul aktiviert/deaktiviert werden.
 
