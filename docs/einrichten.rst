@@ -1,6 +1,3 @@
-.. warning::
-    Die Dokumentation könnte an einigen Stellen nicht mehr aktuell sein, da Weemo auf Slash-Commands migriert hat. Bitte habt ein wenig Geduld, während die Dokumentation aktualisiert wird.
-
 ****************
 Weemo einrichten
 ****************
@@ -10,7 +7,7 @@ Weemo einrichten
 Hallo und Danke, dass du dich für Weemo entschieden hast.
 Im Folgenden werde ich euch zeigen, welche Einstellungen ihr machen könnt,
 damit Weemo auf eurem Server optimal funktioniert.
-Das ganze wird in vier Kategorien eingeteilt: **Moderation**, **Nützliches**, **Soziales** und **Prefix**.
+Das ganze wird in drei Kategorien eingeteilt: **Moderation**, **Nützliches** und **Soziales**.
 
 Moderation
 ==========
