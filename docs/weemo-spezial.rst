@@ -2,6 +2,9 @@
 Weemo's Minispiele
 *************
 
+.. note::
+   In diesem Bereich werden nur die Minispiele erklärt, bei denen Einstellungen vorgenommen werden können.
+
 .. _emojiquiz:
 
 Emojiquiz
@@ -61,6 +64,8 @@ Spielprinzip
 Weemo sucht eine zufällige Zahl aus. Du musst versuchen, diese Zahl zu erraten.
 Gelingt dir das, erhältst du einen Punkt und eine weitere Runde beginnt.
 
+Befehle
+^^^^^^^
 .. csv-table::
     :widths: auto
     :align: left
