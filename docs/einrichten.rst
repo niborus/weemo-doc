@@ -42,14 +42,14 @@ Das Profil [Serverübergreifend]
 -------------------------------
 
 Das Profil enthält allgemeine Informationen über euch.
-Mit ``/help profile`` oder :ref:`hier<befehle_profile>` könnt ihr sehen, wie ihr es einrichtet.
+Mit ``/help profile`` könnt ihr sehen, wie ihr es einrichtet.
 Mit ``/birthday`` fügt ihr euren Geburtstag hinzu.
 
 Splatoon 3 Karte [Serverübergreifend]
 -------------------------------------
 
 Die Karte enthält Informationen über eure Splatoon 3 Ränge.
-Die Anleitung zum einrichten ist unter ``/help card`` und im Menü :ref:`befehle_card`.
+Die Anleitung zum Einrichten ist unter ``/help card``.
 
 Nintendo-Switch-Freundescode [Serverübergreifend]
 -------------------------------------------------
@@ -62,8 +62,7 @@ Nützliches
 Levelrollen
 -------------
 
-Falls ihr für besondes aktive Mitglieder Rollen verteilen wollt, findet ihr bei ``/leveledroles``
-und :ref:`hier<befehle_leveledroles>` mehr Informationen dazu.
+Falls ihr für besondes aktive Mitglieder Rollen verteilen wollt, findet ihr bei ``/leveledroles`` mehr Informationen dazu.
 
 Private Kanäle
 --------------------
@@ -75,8 +74,7 @@ Begrüßung und Verabschiedung
 ----------------------------
 
 Um Mitglieder auf dem Server automatisch zu begrüßen und zu verabschieden, nutzt ``/joinmessage`` und ``/leavemessage``.
-(Siehe :ref:`joinmsg_leavemsg`)
-Um einem neuen Mitglied eine Rolle zuzuweisen, nutzt ``/joinrole``. (siehe :ref:`befehle_joinrole`)
+Um einem neuen Mitglied eine Rolle zuzuweisen, nutzt ``/joinrole``.
 
 Emojiquiz
 ----
