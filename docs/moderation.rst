@@ -122,12 +122,12 @@ Syntax: ``/punishments member <Mitglied>``
 Zeigt die Verwarnungen eines Mitglieds an.
 
 
-Syntax: ``w#punishments id <ID>``
+Syntax: ``/punishments id <ID>``
 
 Zeigt die Verwarnung mit der angegebenen ID an.
 
 
-Syntax: ``w#punishments delete <ID>``
+Syntax: ``/punishments delete <ID>``
 
 Löscht die Verwarnung mit der angegebenen ID.
 
@@ -225,6 +225,13 @@ Es existieren folgende Module:
     "automod filter [Wort]", "Fügt ein Wort zum Wortfilter hinzu. Entfernt das Wort, sofern es hinzugefügt wurde."
     "automod maxcaps [Max. Caps]", "Konfiguriert die Prozentanzahl, die eine Nachricht maximal an Caps beinhalten darf."
     "automod message [Nachricht]", "Konfiguriert die Nachricht, die gesendet werden soll, wenn ein Mitglied vom AutoMod verwarnt wird."
+    
+
+Rollen
+^^^^^^^^^^^^^^^^
+
+Mit ``/automod ignore [@Rolle]`` können Rollen hinzugefügt werden, die nicht vom AutoMod beachtet werden sollen.
+Bei einer weiteren Eingabe mit der gleichen Rolle wird diese aus dieser Liste entfernt.
 
 Wortfilter
 ^^^^^^^^^^

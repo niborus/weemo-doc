@@ -108,7 +108,6 @@ Suche nach Weemo in der Mitglieder-Liste auf der rechten Seite.
 **Falls** der Punkt neben Weemos Profilbild grün ist:
 
 - dann ist Weemo online
-- Mache weiter mit :ref:`no_reaction_prefix`
 
 **Falls** Weemo nicht in der Liste ist:
 

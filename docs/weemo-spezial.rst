@@ -1,6 +1,9 @@
 *************
-Weemo Spezial
+Weemo's Minispiele
 *************
+
+.. note::
+   In diesem Bereich werden nur die Minispiele erklärt, bei denen Einstellungen vorgenommen werden können.
 
 .. _emojiquiz:
 
@@ -49,3 +52,25 @@ Befehle
     "emojiquiz settings", "Zeigt die aktuellen Einstellungen."
     "emojiquiz setchannel", "Optional: Setzt den Kanal fest, in dem das Emojiquiz gespielt werden soll."
     "emojiquiz repair", "Repariert das Emojiquiz, sollte es nicht wie erwartet funktionieren."
+
+
+.. _guessthenumber:
+
+GuessTheNumber
+=========
+
+Spielprinzip
+^^^^^^^^^^^^
+Weemo sucht eine zufällige Zahl aus. Du musst versuchen, diese Zahl zu erraten.
+Gelingt dir das, erhältst du einen Punkt und eine weitere Runde beginnt.
+
+Befehle
+^^^^^^^
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "leaderboard guessthenumber", "Zeigt eine globale Top 10-Bestenliste der User, die die meisten Zahlen erraten haben."
+    "guessthenumber setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem GuessTheNumber gespielt werden soll."
+    "guessthenumber reset", "Entfernt den Textkanal, in dem GuessTheNumber gespielt werden soll."
