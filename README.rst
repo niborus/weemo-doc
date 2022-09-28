@@ -2,25 +2,26 @@ Weemo Dokumentation
 ===================
 .. image:: https://readthedocs.org/projects/weemo/badge/?version=latest
 
-Weemo ist ein deutschsprachiger Discord-Bot.
+Weemo • Ein frecher, aber dennoch sehr nützlicher Discord Bot. Frisch aus der Deepsea Metro.
 
 Links
 -----
 - Discord-Server: https://discord.gg/myD9rUF
-- Patreon (rein auf freiwilliger Basis, Weemo's Funktionen sind und werden für immer kostenlos bleiben): https://weemobot.de/patreon
-- Lade Weemo auf deinen Server ein: https://weemobot.de/invite
-- Dokumentation: https://weemo.readthedocs.io/de/latest/
+- Patreon (rein auf freiwilliger Basis, Weemo's Funktionen sind und werden für immer kostenlos bleiben): https://weemo.ink/patreon
+- Lade Weemo auf deinen Server ein: https://weemo.ink/invite
+- Dokumentation: https://weemo.ink/faq
 
-Ausgestattet mit
+Features
 ----------------
-- Nützlichen Befehlen wie userinfo, serverinfo, roleinfo etc.
-- einem AutoMod, Modlog & vielen Moderationsbefehlen
-- Levelrollen & Serverpunkten
-- Reactionroles
-- Privaten Sprachkanälen
-- Musik
+- Informativen Befehlen
+- Moderativen Befehlen
+- Serverpunkten & Bestenlisten
+- Reaction Roles
+- Streamankündigungen
+- Interaktions-Befehlen
+- Minispielen
 - Keksen 🍪
-- ...und vielem mehr
+- ...und noch vielem mehr!
 
 Support
 -------
