@@ -1,6 +1,3 @@
-.. warning::
-    Die Dokumentation könnte an einigen Stellen nicht mehr aktuell sein, da Weemo auf Slash-Commands migriert hat. Bitte habt ein wenig Geduld, während die Dokumentation aktualisiert wird.
-
 ***************************
 Häufige Fragen und Probleme
 ***************************
@@ -87,15 +84,6 @@ Es gibt drei Arten, eine ID herauszufinden:
 #. Nutze die Befehle ``roleinfo``, ``userinfo``, ``channelinfo`` bzw. ``serverinfo``.
    Weemo wird euch auch dort die ID anzeigen.
 
-.. _forcedel:
-
-Weemo sagt, ich habe noch einen privaten Sprachkanal, obwohl ich keinen habe.
-=============================================================================
-
-Wenn der private Sprachkanal per Hand gelöscht wurde, ist er noch in Weemos Datenbank verfügbar.
-Um ihn aus der Datenbank zu löschen, muss der Befehl ``w#forcedel [@User]`` verwendet werden.
-Erst dann wird Weemo einen neuen Sprachkanal vergeben.
-
 .. _no_reaction:
 
 Weemo reagiert nicht, was soll ich tun?
@@ -120,7 +108,6 @@ Suche nach Weemo in der Mitglieder-Liste auf der rechten Seite.
 **Falls** der Punkt neben Weemos Profilbild grün ist:
 
 - dann ist Weemo online
-- Mache weiter mit :ref:`no_reaction_prefix`
 
 **Falls** Weemo nicht in der Liste ist:
 
@@ -130,34 +117,6 @@ Suche nach Weemo in der Mitglieder-Liste auf der rechten Seite.
   (*Auf größeren Servern kann es passieren, dass Mitglieder, die offline sind, nicht angezeigt werden.*
   *In diesem Fall musst du Weemos Online-Status über die Mitgliederliste des Servers oder über andere Bots herausfinden.*)
 
-.. _no_reaction_prefix:
-
-Weemos Präfix überprüfen
-------------------------
-
-Dafür hast du 2 Möglichkeiten
-
-1. Sende eine Nachricht mit dem Inhalt „@Weemo“, 
-in der du Weemo erwähnst. 
-**Außer der Erwähnung darf die Nachricht keinen weiteren Text enthalten.**
-2. Verwende den Slash-Command ``/prefix``
-
-**Falls** Weemo antwortet
-
-- wird sie Ihren Präfix verraten.
-- In den Beispielen dieser Dokumentation wird immer der Standardpräfix ``w#`` verwendet.
-  Sollte euer Präfix abweichen, müsst ihr euren Präfix verwenden.
-  Der Standardpräfix wird nicht funktionieren.
-
-  .. image:: images/at_weemo.png
-    :alt: Weemo wird erwähnt und antwortet mit ihrem Präfix.
-
-**Falls** Weemo nicht antwortet
-
-- kann sie entweder den Kanal nicht sehen oder darf nicht in diesen schreiben.
-- Ändere die Rechte, so dass Weemo den Kanal sehen und in ihm schreiben darf (siehe :ref:`no_reaction_permission`).
-
-.. _no_reaction_permission:
 
 Weemos Berechtigungen überprüfen
 --------------------------------
@@ -185,8 +144,6 @@ Falls das alles nicht geklappt hat
 ----------------------------------
 
 - Tritt dem `Weemo HQ`_ bei und frage bei Support nach.
-- Falls Weemo auf den Befehl ``w#setup check`` reagiert,
-  so sende bitte einen Screenshot von Weemos Antwort auf diesen Befehl mit in den Support.
 
 
 .. _Weemo HQ: https://discord.com/invite/myD9rUF

@@ -1,9 +1,9 @@
-.. warning::
-    Die Dokumentation könnte an einigen Stellen nicht mehr aktuell sein, da Weemo auf Slash-Commands migriert hat. Bitte habt ein wenig Geduld, während die Dokumentation aktualisiert wird.
+*************
+Weemo's Minispiele
+*************
 
-*************
-Weemo spezial
-*************
+.. note::
+   In diesem Bereich werden nur die Minispiele erklärt, bei denen Einstellungen vorgenommen werden können.
 
 .. _emojiquiz:
 
@@ -20,12 +20,14 @@ Für jedes erratene Wort gibt es je nach Schwierigkeit Cornichon-Punkte.
 Wie wird es eingerichtet?
 ^^^^^^^^^^^^^^^^^^^^^^^^^
 
-- Es muss ein Textkanal mit dem Namen ``emojiquiz`` erstellt werden, damit das losraten beginnen kann!
-- Sollte ein Wort einen falschen Tipp / Schwierigkeitsgrad oder falsche Emotes aufweisen, wende dich bitte bei unserem Team auf dem Support Server.
+- Es kann ein Kanal mit dem Namen `emojiquiz` erstellt werden.
+- Möchtest du jedoch einen eigenen Namen festlegen, kannst du dieses mit ``/emojiquiz setchannel`` konfigurieren.
 
 Es startet nicht, was soll ich tun?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Gib ``w#quiz repair`` ein, dann sollte das Emojiquiz starten. Bitte überprüfe auch, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** und **Reaktionen hinzufügen** hat und ob der Textkanalname nur aus latenischen Buchstaben besteht. Emotes können natürlich verwendet werden, aber der Textkanal **muss** das Wort emojiquiz beinhalten.
+- Gebe ``/emojiquiz settings`` ein und schaue nach, ob Weemo den Kanal aufgelistet hat.
+- Überprüfe, ob Weemo die Berechtigungen **Nachrichten verwalten**, **Links einbetten** und **Reaktionen hinzufügen** hat.
+- Falls Weemo die benötigten Berechtigungen hat, gebe ``/emojiquiz repair`` ein.
 
 Was ist die Lösung zu diesem Emojiquiz?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -45,5 +47,30 @@ Befehle
     :align: left
     :header: "Befehl", "Beschreibung"
 
-    "quiz top", "Zeigt eine globale Top10-Liste mit den meisten Punkten aller User an."
-    "quiz repair", "Falls das Emojiquiz trotz richtiger Antwort nicht funktionieren sollte."
+    "leaderboard emojiquiz", "Zeigt eine globale Top 10-Liste mit den meisten Punkten aller User an."
+    "emojiquiz help", "Erklärt das Emojiquiz."
+    "emojiquiz settings", "Zeigt die aktuellen Einstellungen."
+    "emojiquiz setchannel", "Optional: Setzt den Kanal fest, in dem das Emojiquiz gespielt werden soll."
+    "emojiquiz repair", "Repariert das Emojiquiz, sollte es nicht wie erwartet funktionieren."
+
+
+.. _guessthenumber:
+
+GuessTheNumber
+=========
+
+Spielprinzip
+^^^^^^^^^^^^
+Weemo sucht eine zufällige Zahl aus. Du musst versuchen, diese Zahl zu erraten.
+Gelingt dir das, erhältst du einen Punkt und eine weitere Runde beginnt.
+
+Befehle
+^^^^^^^
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "leaderboard guessthenumber", "Zeigt eine globale Top 10-Bestenliste der User, die die meisten Zahlen erraten haben."
+    "guessthenumber setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem GuessTheNumber gespielt werden soll."
+    "guessthenumber reset", "Entfernt den Textkanal, in dem GuessTheNumber gespielt werden soll."

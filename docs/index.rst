@@ -3,9 +3,6 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-.. warning::
-    Die Dokumentation könnte an einigen Stellen nicht mehr aktuell sein, da Weemo auf Slash-Commands migriert hat. Bitte habt ein wenig Geduld, während die Dokumentation aktualisiert wird.
-
 Willkommen bei der Dokumentation für Weemo!
 ===========================================
 
@@ -13,7 +10,6 @@ Weemo • Ein frecher, aber dennoch sehr nützlicher Discord Bot. Frisch aus der
 
 Features
 ----------------
-- Anpassbarem Prefix
 - Informativen Befehlen
 - Moderativen Befehlen
 - Serverpunkten & Bestenlisten
