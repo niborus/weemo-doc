@@ -44,7 +44,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = u'Weemo'
-copyright = u'2021 - 2022, Weemo-Team'
+copyright = u'2021 - 2023, Weemo-Team'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
