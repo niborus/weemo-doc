@@ -254,7 +254,7 @@ Scamfilter
 ^^^^^^^^^^^^^^
 
 Der Scamfilter löscht Links zu Phishing-Seiten. Klicke **niemals** auf diese Links, dein Discord-Account kann dadurch gestohlen werden!
-Was Phishing-Seiten sind: https://de.wikipedia.org/wiki/Phishing.
+Was Phishing-Seiten sind findet du hier: https://de.wikipedia.org/wiki/Phishing.
 
 Nachricht
 ^^^^^^^^^
