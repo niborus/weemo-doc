@@ -96,4 +96,4 @@ Befehle
 
     "leaderboard antonymquiz", "Zeigt eine globale Top 10-Bestenliste der User, die die meisten Antonyme erraten haben."
     "antonymquiz setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem Antonymquiz gespielt werden soll."
-    "guessthenumber settings", "Öffnet die Einstellungen des Minispiels."
+    "antonymquiz settings", "Zeigt die aktuellen Einstellungen an."
