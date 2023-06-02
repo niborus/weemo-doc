@@ -74,3 +74,26 @@ Befehle
     "leaderboard guessthenumber", "Zeigt eine globale Top 10-Bestenliste der User, die die meisten Zahlen erraten haben."
     "guessthenumber setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem GuessTheNumber gespielt werden soll."
     "guessthenumber reset", "Entfernt den Textkanal, in dem GuessTheNumber gespielt werden soll."
+
+
+
+.. _antonymquiz:
+
+Antonymquiz
+=========
+
+Spielprinzip
+^^^^^^^^^^^^
+Weemo gibt dir einen zufälligen Begriff vor, dessen Antonym ("Gegenteil") du erraten musst.
+Wenn du ein Antonym richtig erraten hast, erhälst du, je nach Schwierigkeitsstufe, eine gewisse Anzahl an Cornichon-Punkten.
+
+Befehle
+^^^^^^^
+.. csv-table::
+    :widths: auto
+    :align: left
+    :header: "Befehl", "Beschreibung"
+
+    "leaderboard antonymquiz", "Zeigt eine globale Top 10-Bestenliste der User, die die meisten Antonyme erraten haben."
+    "antonymquiz setchannel [#Textkanal]", "Konfiguriert den Textkanal, in dem Antonymquiz gespielt werden soll."
+    "guessthenumber settings", "Öffnet die Einstellungen des Minispiels."
