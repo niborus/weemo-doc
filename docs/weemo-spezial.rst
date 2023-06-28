@@ -33,9 +33,10 @@ Was ist die Lösung zu diesem Emojiquiz?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 - Unser Team verrät keine Lösungen aus dem Emojiquiz. Wenn dir ein Wort nicht einfällt, kannst du das aktuelle Emojiquiz mit dem Button ``Überspringen`` überspringen.
 
-Weemo reagiert auf keinen Befehl?
+Was bedeuten die Reaktionen?
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-- Weemo reagiert nicht länger in Emojiquiz-Kanälen auf Befehle. Bitte führe deinen gewünschten Befehl in einem anderen Kanal aus.
+- ❌ bedeutet, dass du falsch liegst.
+- ⭐ bedeutet, dass du sehr nah an dem gesuchten Begriff liegst.
 
 .. _emojiquiz_befehle:
 
