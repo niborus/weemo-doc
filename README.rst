@@ -1,3 +1,5 @@
+**Dokumentation archiviert: Die neue Dokumentation befindet sich unter** https://github.com/weemobot/docs
+
 Weemo Dokumentation
 ===================
 .. image:: https://readthedocs.org/projects/weemo/badge/?version=latest
